@@ -1,0 +1,88 @@
+@import 'global.scss';
+@import 'mediaQueries';
+
+
+.skills {
+    position: relative;
+    background: $black;
+
+    .skillsCardsRow {
+        position: absolute;
+        top: -8%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, 8%);
+        width: 86%;
+        background: $black !important;
+        border-radius: 1.4rem;
+    }
+
+    .frontEndDev {
+        border-radius: 1.4rem 0 0 1.4rem;
+    }
+
+    .UiUx {
+        border-radius: 0 1.4rem 1.4rem 0;
+        border-right: none !important;
+    }
+
+    .skillCard {
+        padding: 32px;
+        background: $black;
+        border-right: 2px solid #181818;
+        margin-right: 0;
+
+        p, li {
+            font-size: 18px;
+            color: $white;
+        }
+
+        .skillCardLogo {
+            margin-bottom: 32px;
+        }
+
+        .mb-32px {
+            margin-bottom: 32px;
+        }
+
+        h4 {
+            margin-bottom: 12px;
+            color: $white;
+        }
+
+        ul {
+            list-style: none;
+            text-align: center;
+            padding-left: 0;
+        }
+    }
+}
+
+
+h4 {
+    font-weight: bold !important;
+}
+
+@media (max-width: 767px) { 
+    .frontEndDev {
+        border-radius: 1.4rem 1.4rem 0 0 !important;
+        border-right: none !important;
+        border-bottom: 2px solid #181818 !important;
+    }
+
+    .backEndDev {
+        border-right: none !important;
+        border-bottom: 2px solid #181818 !important;
+    }
+
+    .skillsCardsRow {
+        position: absolute;
+        top: -3% !important;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, 3%) !important;
+        width: 86%;
+        background: $black !important;
+        border-radius: 1.4rem;
+    }
+  }

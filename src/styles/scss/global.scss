@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Roboto');
+
+// Global Variables
+$neonOrange: #FD5F00;
+$black: #040404;
+$white: #f2f2f2;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: bold !important;
+}
+
+h3 {
+    font-family: 'Lora', serif !important;
+}
+
+.neonOrangeText {
+    color: $neonOrange !important;
+}
+
+body {
+    background: $black !important;
+  }
+
+

@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Lora|Roboto");
+@import url("https://fonts.googleapis.com/css?family=Lora|Roboto");
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  text-align: center; }
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: bold !important; }
+
+h3 {
+  font-family: 'Lora', serif !important; }
+
+.neonOrangeText {
+  color: #FD5F00 !important; }
+
+body {
+  background: #040404 !important; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  text-align: center; }
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: bold !important; }
+
+h3 {
+  font-family: 'Lora', serif !important; }
+
+.neonOrangeText {
+  color: #FD5F00 !important; }
+
+body {
+  background: #040404 !important; }
+
+@media (max-width: 992px) {
+  .projects {
+    margin-top: 300rem; } }
+
+.skills {
+  position: relative;
+  background: #040404; }
+  .skills .skillsCardsRow {
+    position: absolute;
+    top: -8%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 8%);
+    width: 86%;
+    background: #040404 !important;
+    border-radius: 1.4rem; }
+  .skills .frontEndDev {
+    border-radius: 1.4rem 0 0 1.4rem; }
+  .skills .UiUx {
+    border-radius: 0 1.4rem 1.4rem 0;
+    border-right: none !important; }
+  .skills .skillCard {
+    padding: 32px;
+    background: #040404;
+    border-right: 2px solid #181818;
+    margin-right: 0; }
+    .skills .skillCard p, .skills .skillCard li {
+      font-size: 18px;
+      color: #f2f2f2; }
+    .skills .skillCard .skillCardLogo {
+      margin-bottom: 32px; }
+    .skills .skillCard .mb-32px {
+      margin-bottom: 32px; }
+    .skills .skillCard h4 {
+      margin-bottom: 12px;
+      color: #f2f2f2; }
+    .skills .skillCard ul {
+      list-style: none;
+      text-align: center;
+      padding-left: 0; }
+
+h4 {
+  font-weight: bold !important; }
+
+@media (max-width: 767px) {
+  .frontEndDev {
+    border-radius: 1.4rem 1.4rem 0 0 !important;
+    border-right: none !important;
+    border-bottom: 2px solid #181818 !important; }
+  .backEndDev {
+    border-right: none !important;
+    border-bottom: 2px solid #181818 !important; }
+  .skillsCardsRow {
+    position: absolute;
+    top: -3% !important;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 3%) !important;
+    width: 86%;
+    background: #040404 !important;
+    border-radius: 1.4rem; } }

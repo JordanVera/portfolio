@@ -1,0 +1,92 @@
+@import 'global.scss';
+@import 'mediaQueries.scss';
+
+.projects {
+    margin-top: 44rem;
+
+    h2 {
+        color: $white;
+        margin-bottom: 5.4rem;
+    }
+
+    // .coinfolio {
+    //     background: url('../../media/images/shutterstock_795136543.jpg') contain;
+    //     height: 100%;
+    // }
+
+    .projectCard {
+        height: 14rem;
+        margin-bottom: 2rem;
+        background: none;
+        border-radius: 12px;
+    }
+
+    .cardImg {
+        border-radius: 12px;
+    }
+
+    .github {
+        text-align: center;
+    }
+
+    .githubLink {
+        border-color: $neonOrange;
+        color: $neonOrange;
+        margin: 3rem 0;
+        border-radius: 2rem !important;
+
+        &:hover {
+            color: #fff !important;
+            background: $neonOrange !important;
+            border: none !important;
+        }
+    }
+}
+
+@media (max-width: 1036px) { 
+    .projects {
+        margin-top: 50rem;
+    }
+ }
+
+@media (max-width: 992px) { 
+    .projects {
+        margin-top: 54rem;
+    }
+ }
+
+ @media (max-width: 840px) { 
+    .projects {
+        margin-top: 62rem;
+    }
+ }
+
+ @media (max-width: 767px) { 
+    .projects {
+        margin-top: 118rem;
+    }
+  }
+
+  @media (max-width: 580px) { 
+    .projects {
+        margin-top: 126rem;
+    }
+  }
+
+  
+
+  @media (max-width: 446px) { 
+    .projects {
+        margin-top: 130rem;
+    }
+  }
+
+  @media (max-width: 330px) { 
+    .projects {
+        margin-top: 158rem;
+    }
+  }
+
+
+
+

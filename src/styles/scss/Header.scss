@@ -1,0 +1,39 @@
+@import 'global.scss';
+
+.header {
+    height: 100vh;
+    background: $black;
+    position: relative;
+
+    h1 {
+        color: $neonOrange !important;
+        margin-top: 0;
+        font-size: 54px !important;
+    }
+
+    h3 {
+        color: $white;
+    }
+}
+
+.vertAlignCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.MdComputer {
+    color: $neonOrange !important;
+}
+ 
+.button {
+    border: 2px solid $neonOrange !important;
+    color: $neonOrange !important;
+
+    &:hover {
+        color: #fff !important;
+        background: $neonOrange !important;
+    }
+}

@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Lora|Roboto");
+@import url("https://fonts.googleapis.com/css?family=Lora|Roboto");
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  text-align: center; }
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: bold !important; }
+
+h3 {
+  font-family: 'Lora', serif !important; }
+
+.neonOrangeText {
+  color: #FD5F00 !important; }
+
+body {
+  background: #040404 !important; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  text-align: center; }
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: bold !important; }
+
+h3 {
+  font-family: 'Lora', serif !important; }
+
+.neonOrangeText {
+  color: #FD5F00 !important; }
+
+body {
+  background: #040404 !important; }
+
+@media (max-width: 992px) {
+  .projects {
+    margin-top: 300rem; } }
+
+.projects {
+  margin-top: 44rem; }
+  .projects h2 {
+    color: #f2f2f2;
+    margin-bottom: 5.4rem; }
+  .projects .projectCard {
+    height: 14rem;
+    margin-bottom: 2rem;
+    background: none;
+    border-radius: 12px; }
+  .projects .cardImg {
+    border-radius: 12px; }
+  .projects .github {
+    text-align: center; }
+  .projects .githubLink {
+    border-color: #FD5F00;
+    color: #FD5F00;
+    margin: 3rem 0;
+    border-radius: 2rem !important; }
+    .projects .githubLink:hover {
+      color: #fff !important;
+      background: #FD5F00 !important;
+      border: none !important; }
+
+@media (max-width: 1036px) {
+  .projects {
+    margin-top: 50rem; } }
+
+@media (max-width: 992px) {
+  .projects {
+    margin-top: 54rem; } }
+
+@media (max-width: 840px) {
+  .projects {
+    margin-top: 62rem; } }
+
+@media (max-width: 767px) {
+  .projects {
+    margin-top: 118rem; } }
+
+@media (max-width: 580px) {
+  .projects {
+    margin-top: 126rem; } }
+
+@media (max-width: 446px) {
+  .projects {
+    margin-top: 130rem; } }
+
+@media (max-width: 330px) {
+  .projects {
+    margin-top: 158rem; } }
