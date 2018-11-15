@@ -63,20 +63,21 @@ body {
   .skills .frontEndDev {
     border-radius: 1.4rem 0 0 1.4rem; }
   .skills .UiUx {
-    border-radius: 0 1.4rem 1.4rem 0;
-    border-right: none !important; }
+    border-radius: 0 1.4rem 1.4rem 0; }
   .skills .skillCard {
     padding: 32px;
     background: #040404;
-    border-right: 2px solid #181818;
-    margin-right: 0; }
+    border-color: #181818;
+    border: 2px 2px 2px 1px;
+    margin-right: 0;
+    height: 100%; }
     .skills .skillCard p, .skills .skillCard li {
       font-size: 18px;
       color: #f2f2f2; }
     .skills .skillCard .skillCardLogo {
       margin-bottom: 32px; }
-    .skills .skillCard .mb-32px {
-      margin-bottom: 32px; }
+    .skills .skillCard p {
+      margin: 1.6rem 0; }
     .skills .skillCard h4 {
       margin-bottom: 12px;
       color: #f2f2f2; }
@@ -84,18 +85,16 @@ body {
       list-style: none;
       text-align: center;
       padding-left: 0; }
+  .skills hr {
+    border: 1px solid #181818;
+    width: 60%; }
 
 h4 {
   font-weight: bold !important; }
 
 @media (max-width: 767px) {
   .frontEndDev {
-    border-radius: 1.4rem 1.4rem 0 0 !important;
-    border-right: none !important;
-    border-bottom: 2px solid #181818 !important; }
-  .backEndDev {
-    border-right: none !important;
-    border-bottom: 2px solid #181818 !important; }
+    border-radius: 1.4rem 1.4rem 0 0 !important; }
   .skillsCardsRow {
     position: absolute;
     top: -3% !important;
@@ -104,4 +103,6 @@ h4 {
     transform: translate(-50%, 3%) !important;
     width: 86%;
     background: #040404 !important;
-    border-radius: 1.4rem; } }
+    border-radius: 1.4rem; }
+  .UiUx {
+    border-radius: 0 0 1.4rem 1.4rem !important; } }

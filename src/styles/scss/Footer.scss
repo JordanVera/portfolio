@@ -1,0 +1,29 @@
+@import 'global';
+
+.footer {
+    background: $neonOrange;
+    height: 30rem;
+    text-align: center;
+
+    .MdComputerFooter {
+        margin-top: 5rem;
+        margin-bottom: 4rem;
+    }
+
+    .socialMediaText {
+        color: $white;
+        font-size: 26px;
+        margin-bottom: 4rem;
+    }
+
+    .socialMediaIcons {
+        margin: 0 auto;
+        display: grid;
+        width: 20rem;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .socialIcon {  
+      size: 2rem;
+    }
+}

@@ -23,14 +23,15 @@
 
     .UiUx {
         border-radius: 0 1.4rem 1.4rem 0;
-        border-right: none !important;
     }
 
     .skillCard {
         padding: 32px;
         background: $black;
-        border-right: 2px solid #181818;
+        border-color:#181818;
+        border: 2px 2px 2px 1px;
         margin-right: 0;
+        height: 100%;
 
         p, li {
             font-size: 18px;
@@ -41,8 +42,8 @@
             margin-bottom: 32px;
         }
 
-        .mb-32px {
-            margin-bottom: 32px;
+        p {
+            margin: 1.6rem 0;
         }
 
         h4 {
@@ -56,6 +57,11 @@
             padding-left: 0;
         }
     }
+
+    hr {
+        border: 1px solid #181818;
+        width: 60%;
+    }
 }
 
 
@@ -66,13 +72,6 @@ h4 {
 @media (max-width: 767px) { 
     .frontEndDev {
         border-radius: 1.4rem 1.4rem 0 0 !important;
-        border-right: none !important;
-        border-bottom: 2px solid #181818 !important;
-    }
-
-    .backEndDev {
-        border-right: none !important;
-        border-bottom: 2px solid #181818 !important;
     }
 
     .skillsCardsRow {
@@ -84,5 +83,9 @@ h4 {
         width: 86%;
         background: $black !important;
         border-radius: 1.4rem;
+    }
+
+    .UiUx {
+        border-radius: 0 0 1.4rem 1.4rem !important;
     }
   }

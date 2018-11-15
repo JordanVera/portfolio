@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../../styles/css/Header.css';
-import Navigation from './Navbar/Navbar';
 import { Container } from 'reactstrap';
+import Navigation from './Navbar/Navbar';
 // import Particles from 'react-particles-js';
 
 class Header extends Component {

@@ -1,0 +1,47 @@
+@import 'global';
+
+.contact {
+    position: relative;
+}
+
+.contactFormGreeting {
+    color: $white;
+    margin: 8rem auto 2rem auto;
+}
+
+.contactForm {
+    width: 600px;
+    margin: 20vh auto 0 auto;
+
+    .label {
+        color: $white;
+    }
+
+    input, textarea {
+        background: $black !important;
+        color: $white !important;
+    }
+}
+
+.button {
+    border: 2px solid $neonOrange !important;
+    color: $neonOrange !important;
+    width: 100%;
+    margin-top: 1.2rem;
+
+    &:hover {
+        color: #fff !important;
+        background: $neonOrange !important;
+    }
+}
+
+
+@media (max-width: 767px) { 
+    .contactForm {
+        width: 90%;
+    }
+
+    .contactFormGreeting {
+        font-size: 2rem;
+    }
+  }

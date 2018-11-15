@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Lora|Roboto");
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  text-align: center; }
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: bold !important; }
+
+h3 {
+  font-family: 'Lora', serif !important; }
+
+.neonOrangeText {
+  color: #FD5F00 !important; }
+
+body {
+  background: #040404 !important; }
+
+.footer {
+  background: #FD5F00;
+  height: 30rem;
+  text-align: center; }
+  .footer .MdComputerFooter {
+    margin-top: 5rem;
+    margin-bottom: 4rem; }
+  .footer .socialMediaText {
+    color: #f2f2f2;
+    font-size: 26px;
+    margin-bottom: 4rem; }
+  .footer .socialMediaIcons {
+    margin: 0 auto;
+    display: grid;
+    width: 20rem;
+    grid-template-columns: repeat(4, 1fr); }
+  .footer .socialIcon {
+    size: 2rem; }

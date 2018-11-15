@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Lora|Roboto");
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  text-align: center; }
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: bold !important; }
+
+h3 {
+  font-family: 'Lora', serif !important; }
+
+.neonOrangeText {
+  color: #FD5F00 !important; }
+
+body {
+  background: #040404 !important; }
+
+.contact {
+  position: relative; }
+
+.contactFormGreeting {
+  color: #f2f2f2;
+  margin: 8rem auto 2rem auto; }
+
+.contactForm {
+  width: 600px;
+  margin: 20vh auto 0 auto; }
+  .contactForm .label {
+    color: #f2f2f2; }
+  .contactForm input, .contactForm textarea {
+    background: #040404 !important;
+    color: #f2f2f2 !important; }
+
+.button {
+  border: 2px solid #FD5F00 !important;
+  color: #FD5F00 !important;
+  width: 100%;
+  margin-top: 1.2rem; }
+  .button:hover {
+    color: #fff !important;
+    background: #FD5F00 !important; }
+
+@media (max-width: 767px) {
+  .contactForm {
+    width: 90%; }
+  .contactFormGreeting {
+    font-size: 2rem; } }

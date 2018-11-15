@@ -23,8 +23,10 @@ export default class Skills extends Component {
                             </CardTitle>
                             <h4>Front-end Developer</h4>
                             <p className="mb-32px">I value simple content structure, clean design patterns, and thoughtful interactions.</p>
+                            <hr />
                             <p className="neonOrangeText">Languages I Speak:</p>
                             <p className="mb-32px">HTML, React, CSS, SASS, Javascript</p>
+                            <hr />
                             <p className="neonOrangeText">Dev Tools:</p>
                             <ul>
                                 <li>VS Code</li>
@@ -51,8 +53,10 @@ export default class Skills extends Component {
                             </CardTitle>
                             <h4>Back-end Developer</h4>
                             <p className="mb-32px">I value simple content structure, clean design patterns, and thoughtful interactions.</p>
+                            <hr />
                             <p className="neonOrangeText">Languages I Speak:</p>
                             <p className="mb-32px">Node.js, MongoDb/Mongoose, Express, mySQL  </p>
+                            <hr />
                             <p className="neonOrangeText">Dev Tools:</p>
                             <ul>
                                 <li>Terminal</li>
@@ -78,8 +82,10 @@ export default class Skills extends Component {
                             </CardTitle>
                             <h4>UI / UX Designer</h4>
                             <p className="mb-32px">I value simple content structure, clean design patterns, and thoughtful interactions.</p>
+                            <hr />
                             <p className="neonOrangeText">Languages I Speak:</p>
                             <p className="mb-32px">HTML, React, CSS, SASS, Javascript</p>
+                            <hr />
                             <p className="neonOrangeText">Dev Tools:</p>
                             <ul>
                                 <li>Terminal</li>

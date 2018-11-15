@@ -1,19 +1,22 @@
 import React, { Component } from 'react';
-import Header from './Components/Header/Header';
-import Introduction from './Components/Introduction/Introduction';
-import Projects from './Components/Projects/Projects';
-import Resume from './Components/Resume/Resume';
+import Main from './Components/Main/Main';
+import Contact from './Components/Contact/Contact';
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="blackbackground">
-        <Header />
-        <Introduction />
-        <Projects /> 
-        <Resume />
-      </div>
+        <div className="blackbackground">
+          <Router>
+            <Switch>
+              <Route exact path="/" component={Main} />
+              <Route exact path="/contact" component={Contact}/>
+            </Switch>
+          </Router>
+        </div>
     );
   }
 }
