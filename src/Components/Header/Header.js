@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../../styles/css/Header.css';
 import { Container } from 'reactstrap';
 import Navigation from './Navbar/Navbar';
-// import Particles from 'react-particles-js';
+import Particles from 'react-particles-js';
 
 class Header extends Component {
   render() {
@@ -15,7 +15,33 @@ class Header extends Component {
             I design and code beautifully simple things, and I love what I do.
             </h3>
         </Container>
-        {/* <Particles /> */}
+        <Particles
+          params={{
+            "particles": {
+                "number": {
+                    "value": 220,
+                    "density": {
+                        "enable": false
+                    }
+                },
+                "size": {
+                    "value": 4,
+                    "random": true
+                },
+                "move": {
+                    "direction": "bottom",
+                    "out_mode": "out"
+                },
+                "line_linked": {
+                    "enable": false
+                },
+                "color": {
+                 "value": "#FD5F00" 
+                }
+              }
+          }}
+          height="100vh"
+          width="100vw"  />
       </div>
     );
   }

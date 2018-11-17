@@ -28,7 +28,7 @@ export default class Navigation extends React.Component {
   render() {
     return (
       <div>
-        <Navbar light expand="md">
+        <Navbar className="navigation" light expand="md">
         <Container>
           <NavbarBrand href="/">
             <Link to="/main">

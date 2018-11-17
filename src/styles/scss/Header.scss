@@ -1,4 +1,4 @@
-@import 'global.scss';
+@import 'global';
 
 .header {
     height: 100vh;
@@ -31,9 +31,20 @@
 .button {
     border: 2px solid $neonOrange !important;
     color: $neonOrange !important;
+    margin-top: 0 !important;
 
     &:hover {
         color: #fff !important;
         background: $neonOrange !important;
     }
 }
+
+.navigation {
+    background: rgba($color: $black, $alpha: .1) !important;
+}
+
+// @media (max-width: 576px) { 
+//     .button {
+//         width: 84px !important;
+//     }
+//  }

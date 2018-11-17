@@ -44,7 +44,11 @@ body {
 
 .button {
   border: 2px solid #FD5F00 !important;
-  color: #FD5F00 !important; }
+  color: #FD5F00 !important;
+  margin-top: 0 !important; }
   .button:hover {
     color: #fff !important;
     background: #FD5F00 !important; }
+
+.navigation {
+  background: rgba(4, 4, 4, 0.1) !important; }
