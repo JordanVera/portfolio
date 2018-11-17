@@ -94,15 +94,11 @@ body {
 
 @media (max-width: 556px) {
   .projects {
-    margin-top: 142rem; } }
+    margin-top: 144.4rem; } }
 
-@media (max-width: 446px) {
+@media (max-width: 440px) {
   .projects {
-    margin-top: 150rem; } }
-
-@media (max-width: 427px) {
-  .projects {
-    margin-top: 144rem; } }
+    margin-top: 152rem; } }
 
 @media (max-width: 411px) {
   .projects {
