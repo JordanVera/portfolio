@@ -52,6 +52,6 @@ body {
 
 @media (max-width: 767px) {
   .contactForm {
-    width: 90%; }
+    width: 90% !important; }
   .contactFormGreeting {
     font-size: 2rem; } }
