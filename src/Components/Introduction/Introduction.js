@@ -12,7 +12,7 @@ export default class Introduction extends Component {
           <Bounce left>
             <Col sm="12" md={{ size: 6, offset: 3 }}>
                 <h3>Hi, I'm Jordan.  Nice to meet you.</h3>
-                <p>Since beginning my journey as a freelance designer nearly 8 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually improving my chops.</p>
+                <p>I am an aspiring full-stack web developer.  Since beginning my journey as a javascript developer nearly three years ago, I have worked for non-profits, worked with medium size businesses, and even have a couple of applications of my own!</p>
             </Col>
           </Bounce>
         </Container>

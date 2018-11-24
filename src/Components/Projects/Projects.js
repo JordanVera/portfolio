@@ -4,6 +4,7 @@ import React from 'react';
 import { FaGithub } from 'react-icons/fa';
 import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
+import Flip from 'react-reveal/Flip';
 import '../../styles/css/Projects.css';
 
 export default function Projects() {
@@ -28,7 +29,7 @@ export default function Projects() {
             </Col>
 
             <Col xs={12} md={6} lg={4}>
-                <Fade bottom cascade>
+                <Flip bottom cascade>
                   <a href="https://coinfolio-demo.herokuapp.com/" target="_blank">
                     <Card inverse className="projectCard">
                         <CardImg className="cardImg" height="100%" src={require('../../media/images/shutterstock_795136543.jpg')} alt="Card image cap" />
@@ -37,7 +38,7 @@ export default function Projects() {
                         </CardImgOverlay>
                     </Card>
                   </a>
-                </Fade>
+                </Flip>
               </Col>
 
             <Col xs={12} md={6} lg={4}>
