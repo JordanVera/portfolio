@@ -9,7 +9,6 @@ import {
 import { IconContext } from "react-icons";
 import { MdComputer } from 'react-icons/md';
 import { Link } from 'react-router-dom';
-import '../../../styles/css/Header.css';
 
 export default class Navigation extends React.Component {
   constructor(props) {
@@ -30,8 +29,8 @@ export default class Navigation extends React.Component {
       <div>
         <Navbar className="navigation" light expand="md">
         <Container>
-          <NavbarBrand href="/">
-            <Link to="/main">
+          <NavbarBrand>
+            <Link to="/">
               <IconContext.Provider value={{ className: "MdComputer", size: "3rem" }}>
                 <div>
                     <MdComputer />

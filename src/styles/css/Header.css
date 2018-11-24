@@ -51,7 +51,8 @@ body {
     background: #FD5F00 !important; }
 
 .navigation {
-  background: rgba(4, 4, 4, 0.01) !important; }
+  background: rgba(4, 4, 4, 0.01);
+  z-index: 999 !important; }
 
 @media (max-width: 576px) {
   .header h1 {

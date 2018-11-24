@@ -40,7 +40,8 @@
 }
 
 .navigation {
-    background: rgba($color: $black, $alpha: .01) !important;
+    background: rgba($color: $black, $alpha: .01);
+    z-index: 999 !important;
 }
 
 @media (max-width: 576px) { 

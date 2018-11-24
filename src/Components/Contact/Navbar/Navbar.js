@@ -9,7 +9,6 @@ import {
 import { IconContext } from "react-icons";
 import { MdComputer } from 'react-icons/md';
 import { Link } from 'react-router-dom';
-// import '../../../styles/css/Header.css';
 
 export default class Navigation extends React.Component {
   constructor(props) {

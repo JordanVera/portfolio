@@ -20,13 +20,13 @@ class Header extends Component {
           params={{
             "particles": {
                 "number": {
-                    "value": 220,
+                    "value": 800,
                     "density": {
                         "enable": false
                     }
                 },
                 "size": {
-                    "value": 4,
+                    "value": 5,
                     "random": true
                 },
                 "move": {
