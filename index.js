@@ -11,7 +11,7 @@ const app = express();
 
 dotenv.config();
 
-const port = 5555;
+const port = process.env.PORT || 5555;
 
 app.use(
   bodyparser.urlencoded({
@@ -25,11 +25,11 @@ app.use(bodyparser.json());
 
 app.use(cors());
 
-if (process.env.NODE_ENV === 'production') {
-  app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '../build'));
-  });
-}
+app.use(express.static(path.join(__dirname, 'client', 'build')));
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'));
+});
 
 app.listen(port, () => {
   console.log(chalk.bgBlueBright.black(`App listening on port ${port}`));
