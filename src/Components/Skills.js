@@ -42,11 +42,9 @@ export default function Skills() {
               basis. I have worked with many different technologies including
               express, node.js, scss, lodash, react, mongoDB, mongoose, and much
               more. As a self taught developer I am also very excited to be a
-              part of a team, almost all of my projects were created entirely by
-              me so I cannot wait to collaborate with other devs! In my current
-              job in construction I collaborate on a daily basis, much of my
-              programming journey was completed alone so I am very excited to be
-              a part of a team.
+              part of a team, In my current job in construction I collaborate on
+              a daily basis but almost all of my projects were created entirely
+              by me.
             </p>
             <p>
               I have worked with many technology stacks in the past but always
