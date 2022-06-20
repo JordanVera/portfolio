@@ -5,10 +5,11 @@ import axios from 'axios';
 
 export default function ContactForm() {
   const { register, errors, handleSubmit } = useForm();
+  const url = process.env.REACT_APP_API_URL;
 
   const onSubmit = (data) => {
     axios
-      .post('/submitForm', data)
+      .post(`${url}/submitForm`, data)
       .then((res) => {
         console.log('RESULT', res);
       })
