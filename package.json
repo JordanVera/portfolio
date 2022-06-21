@@ -1,6 +1,6 @@
 {
   "author": {
-    "name":"Jordan Vera"
+    "name": "Jordan Vera"
   },
   "name": "portfolio",
   "version": "0.1.0",
@@ -27,6 +27,7 @@
     "react-dom": "^18.0.0",
     "react-hook-form": "^7.30.0",
     "react-scripts": "5.0.1",
+    "react-toastify": "^9.0.4",
     "react-tsparticles": "^2.0.6",
     "sass": "^1.52.2",
     "tsparticles": "^2.0.6",
@@ -35,7 +36,7 @@
   "scripts": {
     "server": "nodemon index.js",
     "start": "node index.js",
-    "start-dev": "react-scripts start",
+    "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",

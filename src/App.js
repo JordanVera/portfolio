@@ -6,7 +6,9 @@ import Skills from './Components/Skills.js';
 import Projects from './Components/Projects.js';
 import Footer from './Components/Footer.js';
 import Resume from './Components/Resume.js';
+import { ToastContainer } from 'react-toastify';
 
+import 'react-toastify/dist/ReactToastify.css';
 const darkTheme = createTheme({
   palette: {
     mode: 'dark',
@@ -26,6 +28,18 @@ function App() {
         <AboutMe />
         <Skills />
         <Projects />
+        <ToastContainer
+          position="top-right"
+          theme="dark"
+          autoClose={5000}
+          hideProgressBar={false}
+          newestOnTop={false}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+        />
         <Footer />
       </div>
     </ThemeProvider>

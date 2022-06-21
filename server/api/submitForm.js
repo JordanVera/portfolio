@@ -26,6 +26,7 @@ const postSubmitForm = (req, res) => {
     })
     .then((_) => {
       console.log('msg sent succesfully');
+      res.json({ success: true });
     })
     .catch((err) => {
       console.log(err);
