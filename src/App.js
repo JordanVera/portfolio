@@ -30,7 +30,7 @@ function App() {
         <Projects />
         <ToastContainer
           position="top-right"
-          theme="dark"
+          theme="colored"
           autoClose={5000}
           hideProgressBar={false}
           newestOnTop={false}
