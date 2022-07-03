@@ -6,9 +6,7 @@ export default function AboutMe() {
   return (
     <div id="aboutMe">
       <Container>
-        <Typography variant="h4">
-          <h4>About Me</h4>
-        </Typography>
+        <Typography variant="h4">About Me</Typography>
         <Grid container>
           <Grid className="gridItem" item md={5}>
             <p>

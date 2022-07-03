@@ -4,20 +4,16 @@ import ReactJs from './SkillsRatings/ReactJs.js';
 import Javascript from './SkillsRatings/Javascript.js';
 import Express from './SkillsRatings/Express.js';
 import MongoDb from './SkillsRatings/MongoDb.js';
-import Mongoose from './SkillsRatings/Mongoose.js';
 import Html5 from './SkillsRatings/Html5.js';
 import Css3 from './SkillsRatings/Css3.js';
 import Nodejs from './SkillsRatings/Nodejs.js';
 import RestApi from './SkillsRatings/RestApi.js';
-import Axios from './SkillsRatings/Axios.js';
 
 export default function Skills() {
   return (
     <div id="skills">
       <Container>
-        <Typography variant="h4">
-          <h4>Skills Breakdown</h4>
-        </Typography>
+        <Typography variant="h4">Skills Breakdown</Typography>
 
         <Grid container>
           <Grid className="gridItem" item md={5}>

@@ -11,6 +11,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import Container from '@mui/material/Container';
 import MenuItem from '@mui/material/MenuItem';
+import Clock from './Clock';
 
 const pages = ['About Me', 'Projects', 'Skills'];
 
@@ -20,9 +21,6 @@ const ResponsiveAppBar = () => {
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
-  };
-  const handleOpenUserMenu = (event) => {
-    setAnchorElUser(event.currentTarget);
   };
 
   const handleCloseNavMenu = () => {
@@ -43,7 +41,11 @@ const ResponsiveAppBar = () => {
             component="div"
             sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
           >
-            <img className="appBarLogo" src="./media/logoWhite.svg" />
+            <img
+              className="appBarLogo"
+              src="./media/logoWhite.svg"
+              alt="logo"
+            />
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -113,11 +115,14 @@ const ResponsiveAppBar = () => {
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>
+            <Clock />
+
             <IconButton size="small">
               <a
                 className="socialMediaLink"
                 href="https://github.com/JordanVera"
                 target="_blank"
+                rel="noreferrer"
               >
                 <GitHubIcon />
               </a>
@@ -127,6 +132,7 @@ const ResponsiveAppBar = () => {
                 className="socialMediaLink"
                 href="https://www.linkedin.com/in/jordan-vera-836701161/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <LinkedInIcon />
               </a>
@@ -136,6 +142,7 @@ const ResponsiveAppBar = () => {
                 className="socialMediaLink"
                 href="mailto:verawebdevelopment@gmail.com"
                 target="_blank"
+                rel="noreferrer"
               >
                 <EmailIcon />
               </a>

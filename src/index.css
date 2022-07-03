@@ -79,6 +79,9 @@ h6 {
     text-decoration: none; }
   #appBar .appBarLogo {
     height: 60px; }
+    #appBar .digitalClock {
+      margin-right: 8px !important;
+    }
 
 .MuiMenu-list {
   color: var(--white);

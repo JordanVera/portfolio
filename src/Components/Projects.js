@@ -10,9 +10,7 @@ export default function Projects() {
   return (
     <div id="projects">
       <Container>
-        <Typography variant="h4">
-          <h4>My Projects</h4>
-        </Typography>
+        <Typography variant="h4">My Projects</Typography>
 
         <Grid container spacing={2} sx={{ my: 2 }} columns={10}>
           <Grid item md={2} sm={5} xs={10}>
