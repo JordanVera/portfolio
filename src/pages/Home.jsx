@@ -15,9 +15,9 @@ export default function Home() {
       <ButtonAppBar />
       <Jumbotron />
       <Resume />
+      <Projects />
       <AboutMe />
       <Skills />
-      <Projects />
       <ChessRow />
       <MovieDice />
       <ToastContainer

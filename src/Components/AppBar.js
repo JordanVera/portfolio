@@ -80,11 +80,34 @@ const ResponsiveAppBar = () => {
                 display: { xs: 'block', md: 'none' },
               }}
             >
-              {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
-                </MenuItem>
-              ))}
+              <MenuItem key="1" onClick={handleCloseNavMenu}>
+                <Typography textAlign="center">
+                  <a className="navLink" href="#aboutMe">
+                    About Me
+                  </a>
+                </Typography>
+              </MenuItem>
+              <MenuItem key="2" onClick={handleCloseNavMenu}>
+                <Typography textAlign="center">
+                  <a className="navLink" href="#projects">
+                    Projects
+                  </a>
+                </Typography>
+              </MenuItem>
+              <MenuItem key="3" onClick={handleCloseNavMenu}>
+                <Typography textAlign="center">
+                  <a className="navLink" href="#skills">
+                    Skills
+                  </a>
+                </Typography>
+              </MenuItem>
+              <MenuItem key="4" onClick={handleCloseNavMenu}>
+                <Typography textAlign="center">
+                  <a className="navLink" href="#chessGame">
+                    Chess
+                  </a>
+                </Typography>
+              </MenuItem>
             </Menu>
           </Box>
           <Typography
@@ -112,6 +135,13 @@ const ResponsiveAppBar = () => {
               <Typography textAlign="center">
                 <a className="navLink" href="#skills">
                   Skills
+                </a>
+              </Typography>
+            </MenuItem>
+            <MenuItem key="4" onClick={handleCloseNavMenu}>
+              <Typography textAlign="center">
+                <a className="navLink" href="#chessGame">
+                  Chess
                 </a>
               </Typography>
             </MenuItem>
