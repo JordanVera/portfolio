@@ -127,7 +127,6 @@ export default function ChessGame() {
     <>
       <Chessboard
         arePremovesAllowed={true}
-        arePiecesDraggable={false}
         animationDuration={200}
         boardWidth={300}
         position={game.fen()}
