@@ -64,11 +64,9 @@ h6 {
   -webkit-border-radius: 170px;
   -moz-border-radius: 170px; }
 
-.gridItem p {
-  color: var(--white); }
-
-.gridItem h4 {
-  color: var(--white); }
+.gridItem p, .gridItem h4  {
+  color: var(--white);
+}
 
 #appBar {
   position: absolute;
@@ -302,7 +300,7 @@ input[type="button"]:hover {
   }
   
   @media only screen and (max-width: 900px) {
-    #aboutMe p, #movieDice p, #chessGame p, #skills p{  
+    #aboutMe p, #movieDice .subtitle, #chessGame p, #skills p{  
       text-align: center !important;
     }
   }

@@ -14,10 +14,13 @@ export default function Skills() {
     <div id="skills">
       <Container>
         <Typography variant="h4">Skills Breakdown</Typography>
-
         <Grid container>
           <Grid className="gridItem" item mx="auto" md={5}>
-            <Grid container className="skillRatings">
+            <Grid
+              container
+              columnSpacing={{ xs: 6, sm: 6, md: 2, lg: 2 }}
+              className="skillRatings"
+            >
               <Grid className="gridItem" item xs={6}>
                 <Javascript />
                 <Express />
