@@ -31,6 +31,11 @@ const ResponsiveAppBar = () => {
     setAnchorElUser(null);
   };
 
+  if (window.navigator.geolocation) {
+    
+
+   } 
+
   return (
     <AppBar id="appBar" position="static">
       <Container>

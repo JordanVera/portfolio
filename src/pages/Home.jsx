@@ -6,6 +6,8 @@ import Projects from '../Components/Projects.js';
 import Footer from '../Components/Footer.js';
 import Resume from '../Components/Resume.js';
 import { ToastContainer } from 'react-toastify';
+import MovieDice from '../Components/MovieDice/Dice';
+import ChessRow from '../Components/Chess/ChessRow.jsx';
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
       <AboutMe />
       <Skills />
       <Projects />
+      <ChessRow />
+      <MovieDice />
       <ToastContainer
         position="top-right"
         theme="colored"

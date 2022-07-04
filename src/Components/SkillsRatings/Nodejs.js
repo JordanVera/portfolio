@@ -8,13 +8,7 @@ export default function Nodejs() {
   return (
     <>
       <h5>Node.js</h5>
-      <Box
-        sx={{
-          width: 200,
-          display: 'flex',
-          alignItems: 'center',
-        }}
-      >
+      <Box display="flex" justifyContent="center" alignItems="center">
         <Rating
           name="read-only"
           value={value}

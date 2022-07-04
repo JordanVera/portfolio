@@ -16,8 +16,8 @@ export default function Skills() {
         <Typography variant="h4">Skills Breakdown</Typography>
 
         <Grid container>
-          <Grid className="gridItem" item md={5}>
-            <Grid container>
+          <Grid className="gridItem" item mx="auto" md={5}>
+            <Grid container className="skillRatings">
               <Grid className="gridItem" item xs={6}>
                 <Javascript />
                 <Express />
@@ -52,9 +52,9 @@ export default function Skills() {
             </p>
             <p>
               Please note that most of my web apps are hosted on Heroku free
-              servers and may take some time to load, the apps are actually
-              extremely fast and If i weren't so cheap and paid for hosting they
-              would load much quicker, I promise.
+              servers and may take some time to load. In reality the apps are
+              actually extremely fast and if I weren't so cheap and paid for
+              hosting they would load much quicker.
             </p>
           </Grid>
         </Grid>

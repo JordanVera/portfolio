@@ -27,13 +27,8 @@ export default function AboutMe() {
               PGA Alpha and NFL last Longer sites in the{' '}
               <a href="#projects">my projects</a> section of my site.
             </p>
-            <p>
-              If you would like to get to know me better or have any questions
-              dont be shy! Please contact me by email or by submiting one of the
-              contact forms located through out my site!
-            </p>
           </Grid>
-          <Grid className="gridItem" item md={7}>
+          <Grid className="gridItem" mx="auto" item md={7}>
             <ContactForm />
           </Grid>
         </Grid>

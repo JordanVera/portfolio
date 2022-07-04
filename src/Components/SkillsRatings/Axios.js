@@ -8,13 +8,7 @@ export default function Axios() {
   return (
     <>
       <h5>Axios</h5>
-      <Box
-        sx={{
-          width: 200,
-          display: 'flex',
-          alignItems: 'center',
-        }}
-      >
+      <Box display="flex" justifyContent="center" alignItems="center">
         <Rating
           name="read-only"
           value={value}
