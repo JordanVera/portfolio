@@ -136,6 +136,7 @@ export default function ChessGame() {
         onSquareClick={onSquareClick}
         onSquareRightClick={onSquareRightClick}
         onPieceDrop={onDrop}
+        onPieceDragEnd={onDrop}
         customBoardStyle={{
           borderRadius: '4px',
           boxShadow: '0 5px 15px rgba(0, 0, 0, 0.5)',
