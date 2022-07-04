@@ -76,7 +76,6 @@ export default function ChessGame() {
     getMoveOptions(square);
   }
 
-  // Only set squares to {} if not already set to {}
   function onMouseOutSquare() {
     if (Object.keys(optionSquares).length !== 0) setOptionSquares({});
   }
@@ -128,6 +127,7 @@ export default function ChessGame() {
     <>
       <Chessboard
         arePremovesAllowed={true}
+        arePiecesDraggable={false}
         animationDuration={200}
         boardWidth={300}
         position={game.fen()}
@@ -136,7 +136,6 @@ export default function ChessGame() {
         onSquareClick={onSquareClick}
         onSquareRightClick={onSquareRightClick}
         onPieceDrop={onDrop}
-        onPieceDragEnd={onDrop}
         customBoardStyle={{
           borderRadius: '4px',
           boxShadow: '0 5px 15px rgba(0, 0, 0, 0.5)',
