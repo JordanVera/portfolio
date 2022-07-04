@@ -32,9 +32,7 @@ const ResponsiveAppBar = () => {
   };
 
   if (window.navigator.geolocation) {
-    
-
-   } 
+  }
 
   return (
     <AppBar id="appBar" position="static">
@@ -145,7 +143,7 @@ const ResponsiveAppBar = () => {
             <IconButton size="small">
               <a
                 className="socialMediaLink"
-                href="mailto:verawebdevelopment@gmail.com"
+                href="mailto:verawebdev@protonmail.com"
                 target="_blank"
                 rel="noreferrer"
               >
