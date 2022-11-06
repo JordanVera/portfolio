@@ -28,6 +28,10 @@ code {
 p {
   margin-top: 0; }
 
+a {
+  color: var(--pink);
+}
+
 h1 {
   font-family: "Lora", serif;
   font-weight: 100;
@@ -361,6 +365,15 @@ input[type="button"]:hover {
   
   
   @media only screen and (max-width: 480px) {
+    .notfound .notfound-404 h1 {
+        font-size: 182px;
+    }
+
+
+
+  }  
+
+  @media only screen and (max-width: 780px) {
     .notfound .notfound-404 h1 {
         font-size: 182px;
     }

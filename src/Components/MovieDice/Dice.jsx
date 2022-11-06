@@ -29,6 +29,14 @@ export default function MovieDice() {
                 console.log(num);
               }}
               size={100}
+              faces={[
+                '/media/1.png',
+                '/media/2.png',
+                '/media/3.png',
+                '/media/4.png',
+                '/media/5.png',
+                '/media/6.png',
+              ]}
             />
           </div>
           {diceNumber === 0 && (
