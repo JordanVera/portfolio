@@ -5,7 +5,7 @@ import HeaderAnimation from './HeaderAnimation.js';
 export default function Jumbotron() {
   return (
     <div id="jumbotron">
-      <div id="particles">
+      <div className="imageContainer">
         <ParticlesBackground />
       </div>
       <div id="jumbotronAnimation">
