@@ -42,7 +42,7 @@ h1 {
 
 h2 {
   font-family: "Roboto","Helvetica","Arial",sans-serif;
-color: var(--white) }
+}
 
 h3 {
   font-family: "Roboto","Helvetica","Arial",sans-serif;
@@ -57,10 +57,24 @@ h5 {
 h6 {
   font-family: "Roboto","Helvetica","Arial",sans-serif }
 
+.pink {color: var(--pink) !important } 
+.purple {color: var(--purple) !important } 
+
 .socialMediaLink {
   padding: 2px;
   color: var(--white);
   margin: 0 4px; }
+
+  .tabLinks {
+    padding: 2px;
+    color: var(--pink);
+    margin: 0 4px; 
+    text-decoration: none;
+     }
+
+     .MuiTabs-root  {
+      overflow: visible !important;
+     }
 
 #jumbotron h3 {
   color: var(--white); }
