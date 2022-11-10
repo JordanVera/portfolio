@@ -5,12 +5,17 @@ export default function ChessRow() {
   return (
     <div id="chessGame">
       <Container>
-        <Typography variant="h4">Chess Game</Typography>
         <Grid container>
-          <Grid className="gridItem" item mx="auto" md={5}>
+          <Grid className="gridItem" item mx="auto" my="auto" md={5}>
             <ChessGame />
           </Grid>
-          <Grid className="gridItem" item md={7}>
+          <Grid
+            className="gridItem"
+            item
+            md={7}
+            sx={{ bgcolor: 'background.paper', py: 2, px: 2 }}
+          >
+            <Typography variant="h4">Chess Game</Typography>
             <p>
               Chess is an abstract strategy game and involves no hidden
               information. It is played on a square chessboard with 64 squares

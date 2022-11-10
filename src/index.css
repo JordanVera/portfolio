@@ -122,6 +122,7 @@ h6 {
 
 .skillRatings {
   text-align: center;
+  color: var(--white)
 }
 
 #jumbotronAnimation {
@@ -193,7 +194,7 @@ h6 {
     text-align: center;
     color: var(--white); }
 
-#aboutMe h4, #movieDice h4, #chessGame h4 {
+#movieDice h4{
   margin: 24px 0;
   text-align: center;
   color: var(--white); }
@@ -203,17 +204,18 @@ h6 {
   color: var(--white);
   }
 
-#skills h4 {
-  margin: 24px 0;
-  text-align: center;
-  color: var(--white); }
+#aboutMe h4, #chessGame h4 {
+  margin: 6px 0;
+  font-size: 24px;
+  color: var(--pink); }
 
-#skills .MuiGrid-item {
+#aboutMe .MuiGrid-item {
   margin-bottom: 24px; }
 
-#skills h5 {
+#aboutMe h5 {
   color: var(--white);
   font-size: 16px;
+  font-weight: 300;
   margin: 12px 0; }
 
 form {
@@ -354,15 +356,13 @@ input[type="button"]:hover {
     color: #8400ff;
   }
 
-  #aboutMe p, #movieDice p, #chessGame p, #skills p{  
-    line-height: 1.8rem;
+
+
+  #aboutMe p, #movieDice p, #chessGame p, #aboutMe p{  
+    line-height: 2rem;
   }
   
-  @media only screen and (max-width: 900px) {
-    #aboutMe p, #movieDice .subtitle, #chessGame p, #skills p{  
-      text-align: center !important;
-    }
-  }
+
   @media only screen and (max-width: 600px) {
     .notfound .notfound-404 h2 {
       font-size: 24px;

@@ -13,7 +13,9 @@ export default function MovieDice() {
 
   return (
     <Container id="movieDice">
-      <Typography variant="h4">Movie Dice</Typography>
+      <Typography variant="h4" className="pink">
+        Movie Dice
+      </Typography>
       <Grid
         container
         spacing={0}
@@ -40,7 +42,7 @@ export default function MovieDice() {
             />
           </div>
           {diceNumber === 0 && (
-            <Typography variant="subtitle1" className="subtitle" my={2}>
+            <Typography variant="subtitle1" className="subtitle pink" my={2}>
               Please roll the dice to be given a movie suggestion
             </Typography>
           )}

@@ -2,12 +2,12 @@ import React from 'react';
 import { Box, Rating } from '@mui/material/';
 import StarIcon from '@mui/icons-material/Star';
 
-export default function Axios() {
-  const value = 4;
+export default function Chart() {
+  const value = 3.5;
 
   return (
     <>
-      <h5>Axios</h5>
+      <h5>Chart.js</h5>
       <Box display="flex" justifyContent="center" alignItems="center">
         <Rating
           name="read-only"

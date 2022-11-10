@@ -43,7 +43,7 @@ function a11yProps(index) {
   };
 }
 
-export default function VerticalTabs() {
+export default function ProjectTabs() {
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
@@ -58,7 +58,7 @@ export default function VerticalTabs() {
         display: 'flex',
         height: 'auto',
         minWidth: 'auto',
-        maxWidth: '600px',
+        maxWidth: '800px',
         mx: 'auto',
       }}
     >
@@ -66,8 +66,8 @@ export default function VerticalTabs() {
         orientation="vertical"
         variant="scrollable"
         value={value}
-        textColor="primary"
-        indicatorColor="primary"
+        textColor="secondary"
+        indicatorColor="secondary"
         onChange={handleChange}
         aria-label="Vertical tabs example"
         sx={{

@@ -7,17 +7,19 @@ import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import EmailIcon from '@mui/icons-material/Email';
+
 import GitHubIcon from '@mui/icons-material/GitHub';
 import Container from '@mui/material/Container';
 import MenuItem from '@mui/material/MenuItem';
 import Clock from './Clock';
+import Modal from '../Components/ContactForm/Modal';
 
-const pages = ['About Me', 'Projects', 'Skills'];
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
+  const [open, setOpen] = React.useState(false);
+  const handleOpen = () => setOpen(true);
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -94,14 +96,8 @@ const ResponsiveAppBar = () => {
                   </a>
                 </Typography>
               </MenuItem>
+
               <MenuItem key="3" onClick={handleCloseNavMenu}>
-                <Typography textAlign="center">
-                  <a className="navLink" href="#skills">
-                    Skills
-                  </a>
-                </Typography>
-              </MenuItem>
-              <MenuItem key="4" onClick={handleCloseNavMenu}>
                 <Typography textAlign="center">
                   <a className="navLink" href="#chessGame">
                     Chess
@@ -132,13 +128,6 @@ const ResponsiveAppBar = () => {
               </Typography>
             </MenuItem>
             <MenuItem key="3" onClick={handleCloseNavMenu}>
-              <Typography textAlign="center">
-                <a className="navLink" href="#skills">
-                  Skills
-                </a>
-              </Typography>
-            </MenuItem>
-            <MenuItem key="4" onClick={handleCloseNavMenu}>
               <Typography textAlign="center">
                 <a className="navLink" href="#chessGame">
                   Chess
@@ -171,14 +160,7 @@ const ResponsiveAppBar = () => {
               </a>
             </IconButton>
             <IconButton size="small">
-              <a
-                className="socialMediaLink"
-                href="mailto:verawebdev@protonmail.com"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <EmailIcon />
-              </a>
+              <Modal />
             </IconButton>
             <Menu
               sx={{ mt: '45px' }}
