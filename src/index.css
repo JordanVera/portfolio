@@ -58,6 +58,7 @@ h6 {
   font-family: "Roboto","Helvetica","Arial",sans-serif }
 
 .pink {color: var(--pink) !important } 
+.whiteFill{fill: var(--white); padding: 8px}
 .purple {color: var(--purple) !important } 
 
 .socialMediaLink {
@@ -79,13 +80,6 @@ h6 {
 #jumbotron h3 {
   color: var(--white); }
 
-.circularImage {
-  height: 160px;
-  width: 160px;
-  border-radius: 80px;
-  margin-bottom: 12px;
-  -webkit-border-radius: 170px;
-  -moz-border-radius: 170px; }
 
 .gridItem p, .gridItem h4  {
   color: var(--white);
@@ -205,7 +199,7 @@ h6 {
   }
 
 #aboutMe h4, #chessGame h4 {
-  margin: 6px 0;
+  margin: 16px 0;
   font-size: 24px;
   color: var(--pink); }
 
@@ -376,6 +370,10 @@ input[type="button"]:hover {
   .image2 {
     display: none;
   }
+
+  .MuiChip-label {
+    padding-left: 6px !important;
+  }
   
   
   @media only screen and (max-width: 480px) {
@@ -383,8 +381,9 @@ input[type="button"]:hover {
         font-size: 182px;
     }
 
-
-
+    .chessBoard {
+      width: 100px !important;
+    }
   }  
 
   @media only screen and (max-width: 780px) {
@@ -392,7 +391,7 @@ input[type="button"]:hover {
         font-size: 182px;
     }
 
-    .image1 {
+    .image1, .projectPills {
       display: none;
     }
 

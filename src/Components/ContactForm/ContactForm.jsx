@@ -137,7 +137,12 @@ export default function ContactForm() {
           required: true,
         })}
       ></textarea>{' '}
-      <Button className="submitButton" variant="contained" type="submit">
+      <Button
+        className="submitButton"
+        variant="contained"
+        type="submit"
+        color="secondary"
+      >
         Submit{' '}
       </Button>{' '}
     </form>

@@ -20,7 +20,7 @@ export default function InteractiveList() {
             <ListItemIcon>
               <BoltSharpIcon sx={{ color: '#ff005a' }} />
             </ListItemIcon>
-            <ListItemText primary="A fantasy football pool web application.  This app is built using express, passport, axios, bcryptjs, lodash, mongodb, mongoose, just to name a few." />
+            <ListItemText primary="A fantasy football pool web application.  This app is built using express, passport, axios, bcryptjs, lodash, mongodb, mongoose, and EJS just to name a few." />
           </ListItem>
           <ListItem>
             <ListItemIcon>

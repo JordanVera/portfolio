@@ -12,6 +12,7 @@ import Axios from './SkillsRatings/Axios.js';
 import Mongoose from './SkillsRatings/Mongoose.js';
 import Chart from './SkillsRatings/Chart.js';
 import Git from './SkillsRatings/Git.js';
+import Divider from '@mui/material/Divider';
 
 export default function AboutMe() {
   return (
@@ -25,10 +26,15 @@ export default function AboutMe() {
             sx={{ bgcolor: 'background.paper', py: 2, px: 2 }}
           >
             <Typography variant="h4">About Me</Typography>
+            <Divider sx={{ my: 1 }} />
             <p>
-              My name is Jordan Vera, I am a 26 year old javascript developer
-              from Houston, TX. I am a very ambitious person and would really
-              love to be given an opportunity to become a paid programmer.
+              My name is Jordan Vera, I am a 26 year old fullstack web developer
+              from Houston, TX. I am a very ambitious person and really love
+              working within nodejs.
+            </p>
+            <p>
+              I graduated from the UT Austin Coding Bootcamp in 2018, and since
+              then have been honing my skills as a full-stack web developer.
             </p>
             <p>
               My main focus has been building web applications, and lately I
@@ -36,12 +42,6 @@ export default function AboutMe() {
               am familiar with many technologys from node.js, react, express,
               mongoDB, mongoose, axios, node.js, lodash, socket, chart.js,
               redux, scss, html5, git, and much more.
-            </p>
-            <p>
-              I graduated from the UT Austin Coding Bootcamp in 2018, and since
-              then have been honing my skills as a full-stack web developer. The
-              thing I am most excited about being hired is becoming part of a
-              team, as most have my projects were self created.
             </p>
             <p>
               Please see my PGA Alpha and NFL last Longer sites in the{' '}

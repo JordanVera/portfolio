@@ -1,12 +1,11 @@
-import ButtonAppBar from '../Components/AppBar.js';
-import Jumbotron from '../Components/Jumbotron.js';
-import Projects from '../Components/Projects.js';
-import Footer from '../Components/Footer.js';
-import Resume from '../Components/Resume.js';
+import ButtonAppBar from '../Components/AppBar.jsx';
+import Jumbotron from '../Components/Jumbotron.jsx';
+import Projects from '../Components/Projects.jsx';
+import Footer from '../Components/Footer.jsx';
+import Resume from '../Components/Resume.jsx';
 import { ToastContainer } from 'react-toastify';
 import MovieDice from '../Components/MovieDice/Dice';
-import ChessRow from '../Components/Chess/ChessRow.jsx';
-import AboutMe from '../Components/AboutMe.js';
+import AboutMe from '../Components/AboutMe.jsx';
 
 export default function Home() {
   return (
@@ -16,7 +15,6 @@ export default function Home() {
       <Resume />
       <Projects />
       <AboutMe />
-      <ChessRow />
       <MovieDice />
       <ToastContainer
         position="top-right"

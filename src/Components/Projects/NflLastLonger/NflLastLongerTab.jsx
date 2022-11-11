@@ -4,11 +4,14 @@ import IosShareIcon from '@mui/icons-material/IosShare';
 import NflLastLongerList from './NflLastLongerList.jsx';
 import { Box } from '@mui/material';
 import { IconButton } from '@mui/material';
-
+import Divider from '@mui/material/Divider';
 import Typography from '@mui/material/Typography';
-function TabPanel(props) {
-  const { children, value, index, ...other } = props;
-}
+import Nodejs from '../../SkillsChips/Nodejs.jsx';
+
+import Mongodb from '../../SkillsChips/Mongodb.jsx';
+import Javascript from '../../SkillsChips/Javascript.jsx';
+import Stack from '@mui/material/Stack';
+import Express from '../../SkillsChips/Express.jsx';
 
 export default function NflLastLongerTab() {
   return (
@@ -60,8 +63,22 @@ export default function NflLastLongerTab() {
           </a>
         </IconButton>
       </Box>
+      <Divider variant="middle" sx={{ mt: 1 }} />
 
       <NflLastLongerList />
+
+      <Stack
+        className="projectPills"
+        direction={{ xs: 'column', md: 'row' }}
+        spacing={2}
+        mb={1}
+        px={2}
+      >
+        <Javascript />
+        <Nodejs />
+        <Express />
+        <Mongodb />
+      </Stack>
     </>
   );
 }

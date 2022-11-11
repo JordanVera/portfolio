@@ -12,8 +12,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import Container from '@mui/material/Container';
 import MenuItem from '@mui/material/MenuItem';
 import Clock from './Clock';
-import Modal from '../Components/ContactForm/Modal';
-
+import Modal from './ContactForm/Modal';
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -82,13 +81,6 @@ const ResponsiveAppBar = () => {
                 display: { xs: 'block', md: 'none' },
               }}
             >
-              <MenuItem key="1" onClick={handleCloseNavMenu}>
-                <Typography textAlign="center">
-                  <a className="navLink" href="#aboutMe">
-                    About Me
-                  </a>
-                </Typography>
-              </MenuItem>
               <MenuItem key="2" onClick={handleCloseNavMenu}>
                 <Typography textAlign="center">
                   <a className="navLink" href="#projects">
@@ -96,11 +88,17 @@ const ResponsiveAppBar = () => {
                   </a>
                 </Typography>
               </MenuItem>
-
+              <MenuItem key="1" onClick={handleCloseNavMenu}>
+                <Typography textAlign="center">
+                  <a className="navLink" href="#aboutMe">
+                    About Me
+                  </a>
+                </Typography>
+              </MenuItem>
               <MenuItem key="3" onClick={handleCloseNavMenu}>
                 <Typography textAlign="center">
-                  <a className="navLink" href="#chessGame">
-                    Chess
+                  <a className="navLink" href="#movieDice">
+                    Movie Dice
                   </a>
                 </Typography>
               </MenuItem>
@@ -113,13 +111,6 @@ const ResponsiveAppBar = () => {
             sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
           ></Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            <MenuItem key="1" onClick={handleCloseNavMenu}>
-              <Typography textAlign="center">
-                <a className="navLink" href="#aboutMe">
-                  About Me
-                </a>
-              </Typography>
-            </MenuItem>
             <MenuItem key="2" onClick={handleCloseNavMenu}>
               <Typography textAlign="center">
                 <a className="navLink" href="#projects">
@@ -127,10 +118,17 @@ const ResponsiveAppBar = () => {
                 </a>
               </Typography>
             </MenuItem>
+            <MenuItem key="1" onClick={handleCloseNavMenu}>
+              <Typography textAlign="center">
+                <a className="navLink" href="#aboutMe">
+                  About Me
+                </a>
+              </Typography>
+            </MenuItem>
             <MenuItem key="3" onClick={handleCloseNavMenu}>
               <Typography textAlign="center">
-                <a className="navLink" href="#chessGame">
-                  Chess
+                <a className="navLink" href="#movieDice">
+                  Movie Dice
                 </a>
               </Typography>
             </MenuItem>

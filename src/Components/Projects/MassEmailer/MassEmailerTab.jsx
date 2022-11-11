@@ -2,13 +2,11 @@ import * as React from 'react';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import IosShareIcon from '@mui/icons-material/IosShare';
 import MassEmailerList from './MassEmailerList.jsx';
-import { Box } from '@mui/material';
+import { Box, Stack } from '@mui/material';
 import { IconButton } from '@mui/material';
-
+import Divider from '@mui/material/Divider';
 import Typography from '@mui/material/Typography';
-function TabPanel(props) {
-  const { children, value, index, ...other } = props;
-}
+import Nodejs from '../../SkillsChips/Nodejs.jsx';
 
 export default function MassEmailerTab() {
   return (
@@ -50,8 +48,19 @@ export default function MassEmailerTab() {
           </a>
         </IconButton>
       </Box>
+      <Divider variant="middle" sx={{ mt: 1 }} />
 
       <MassEmailerList />
+
+      <Stack
+        className="projectPills"
+        direction={{ xs: 'column', md: 'row' }}
+        spacing={2}
+        mb={1}
+        px={2}
+      >
+        <Nodejs />
+      </Stack>
     </>
   );
 }

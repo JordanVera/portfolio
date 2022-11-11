@@ -1,5 +1,5 @@
 import React from 'react';
-import HeaderAnimation from './HeaderAnimation.js';
+import HeaderAnimation from './HeaderAnimation.jsx';
 
 export default function Jumbotron() {
   return (

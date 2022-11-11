@@ -9,6 +9,7 @@ import NflLastLongerTab from './NflLastLonger/NflLastLongerTab';
 import MassEmailerTab from './MassEmailer/MassEmailerTab';
 import GifGeneratorTab from './GifGenerator/GifGeneratorTab';
 import TriviaGameTab from './TriviaGame/TriviaGameTab';
+import ChessGame from '../Chess/ChessGame';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -81,6 +82,7 @@ export default function ProjectTabs() {
         <Tab label="Mass Emailer" {...a11yProps(2)} />
         <Tab label="Gif Generator" {...a11yProps(3)} />
         <Tab label="Trivia Game" {...a11yProps(4)} />
+        <Tab label="Chess" {...a11yProps(5)} />
       </Tabs>
 
       <TabPanel value={value} index={0}>
@@ -97,6 +99,9 @@ export default function ProjectTabs() {
       </TabPanel>
       <TabPanel value={value} index={4}>
         <TriviaGameTab />
+      </TabPanel>
+      <TabPanel value={value} index={5}>
+        <ChessGame />
       </TabPanel>
     </Box>
   );

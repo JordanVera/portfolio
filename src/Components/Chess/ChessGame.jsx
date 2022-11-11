@@ -128,13 +128,14 @@ export default function ChessGame() {
       <Chessboard
         arePremovesAllowed={true}
         animationDuration={200}
-        boardWidth={300}
+        boardWidth={200}
         position={game.fen()}
         onMouseOverSquare={onMouseOverSquare}
         onMouseOutSquare={onMouseOutSquare}
         onSquareClick={onSquareClick}
         onSquareRightClick={onSquareRightClick}
         onPieceDrop={onDrop}
+        className="chessBoard"
         customBoardStyle={{
           borderRadius: '4px',
           boxShadow: '0 5px 15px rgba(0, 0, 0, 0.5)',
