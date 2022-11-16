@@ -198,8 +198,8 @@ h6 {
   color: var(--white);
   }
 
-#aboutMe h4, #chessGame h4 {
-  margin: 16px 0;
+#aboutMe h4, #contactMe h4 {
+  margin: 0 0 16px 0;
   font-size: 24px;
   color: var(--pink); }
 
@@ -211,6 +211,10 @@ h6 {
   font-size: 16px;
   font-weight: 300;
   margin: 12px 0; }
+
+  #contactMe {
+    
+  }
 
 form {
   max-width: 500px;

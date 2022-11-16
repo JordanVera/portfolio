@@ -6,6 +6,7 @@ import Resume from '../Components/Resume.jsx';
 import { ToastContainer } from 'react-toastify';
 import MovieDice from '../Components/MovieDice/Dice';
 import AboutMe from '../Components/AboutMe.jsx';
+import ContactMe from '../Components/ContactMe.jsx';
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Resume />
       <Projects />
       <AboutMe />
+      <ContactMe />
       <MovieDice />
       <ToastContainer
         position="top-right"

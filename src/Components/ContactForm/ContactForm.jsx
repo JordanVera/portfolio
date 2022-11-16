@@ -68,7 +68,7 @@ export default function ContactForm() {
           if (response.success) {
             console.log('RESULT', response);
             toast.success(
-              'Your message has been sent.  We will get back to you asap.',
+              'Your message has been sent. I will get back to you asap.',
               toastSettingsObj
             );
             const form = document.getElementById('contactForm');
