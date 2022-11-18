@@ -169,15 +169,11 @@ h6 {
     color: var(--white); }
   #resume button {
     width: 100%;
-    color: var(--white);
-    background: var(--pink);
     margin: 14px 0;
     height: 36px; }
 
     #randomJsFactButton { 
       width: 100%;
-      color: var(--white);
-      background: var(--pink);
     }
 
 .submitButton {

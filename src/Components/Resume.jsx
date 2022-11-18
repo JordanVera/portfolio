@@ -15,7 +15,9 @@ export default function Resume() {
           </Grid>
           <Grid item md={4} xs={12}>
             <Link href="/media/webDevResume.pdf" download="jordanVeraResume">
-              <Button>My Resume</Button>
+              <Button color="secondary" variant="contained">
+                My Resume
+              </Button>
             </Link>
           </Grid>
         </Grid>

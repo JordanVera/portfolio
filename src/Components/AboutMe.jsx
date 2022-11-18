@@ -64,6 +64,8 @@ export default function AboutMe() {
             <Button
               id="randomJsFactButton"
               startIcon={<JavascriptIcon />}
+              color="secondary"
+              variant="contained"
               onClick={() =>
                 toast.info(
                   `${js[Math.floor(Math.random() * js.length)].fact}`,
