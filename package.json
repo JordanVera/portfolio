@@ -37,6 +37,7 @@
     "react-toastify": "^9.0.4",
     "react-tsparticles": "^2.0.6",
     "sass": "^1.52.2",
+    "star-wars-quotes": "^1.0.2",
     "tsparticles": "^2.0.6",
     "web-vitals": "^2.1.4"
   },

@@ -2,7 +2,7 @@ import React from 'react';
 import { Grid, Typography, Container } from '@mui/material';
 import Divider from '@mui/material/Divider';
 import MailIcon from '@mui/icons-material/Mail';
-import ContactForm from './ContactForm/ContactForm.jsx';
+import ContactForm from './ContactForm.jsx';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 

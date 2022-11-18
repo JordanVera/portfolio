@@ -7,8 +7,6 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 
-import { Grid } from '@mui/material';
-
 export default function FullMetalJacketOfRock() {
   const { fullMetalJacket } = movies;
 

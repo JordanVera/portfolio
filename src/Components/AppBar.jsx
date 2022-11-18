@@ -12,7 +12,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import Container from '@mui/material/Container';
 import MenuItem from '@mui/material/MenuItem';
 import Clock from './Clock';
-import Modal from './ContactForm/Modal';
+import Modal from './Contact/Modal';
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);

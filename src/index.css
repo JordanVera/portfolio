@@ -174,6 +174,12 @@ h6 {
     margin: 14px 0;
     height: 36px; }
 
+    #randomJsFactButton { 
+      width: 100%;
+      color: var(--white);
+      background: var(--pink);
+    }
+
 .submitButton {
   margin-top: 12px !important;
   width: 100%; }
@@ -211,10 +217,6 @@ h6 {
   font-size: 16px;
   font-weight: 300;
   margin: 12px 0; }
-
-  #contactMe {
-    
-  }
 
 form {
   max-width: 500px;
@@ -364,10 +366,6 @@ input[type="button"]:hover {
   @media only screen and (max-width: 600px) {
     .notfound .notfound-404 h2 {
       font-size: 24px;
-    }
-
-    #chessBoard {
-      width: 300px;
     }
   }
 

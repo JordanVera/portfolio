@@ -1,12 +1,12 @@
 import ButtonAppBar from '../Components/AppBar.jsx';
 import Jumbotron from '../Components/Jumbotron.jsx';
-import Projects from '../Components/Projects.jsx';
+import Projects from '../Components/Projects/Projects.jsx';
 import Footer from '../Components/Footer.jsx';
 import Resume from '../Components/Resume.jsx';
 import { ToastContainer } from 'react-toastify';
 import MovieDice from '../Components/MovieDice/Dice';
 import AboutMe from '../Components/AboutMe.jsx';
-import ContactMe from '../Components/ContactMe.jsx';
+import ContactMe from '../Components/Contact/ContactMe.jsx';
 
 export default function Home() {
   return (

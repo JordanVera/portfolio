@@ -13,8 +13,21 @@ import Mongoose from './SkillsRatings/Mongoose.js';
 import Chart from './SkillsRatings/Chart.js';
 import Git from './SkillsRatings/Git.js';
 import Divider from '@mui/material/Divider';
+import Button from '@mui/material/Button';
+import JavascriptIcon from '@mui/icons-material/Javascript';
+import js from '../movies/javascriptFactsObj.js';
+import { toast } from 'react-toastify';
 
 export default function AboutMe() {
+  const toastSettingsObj = {
+    position: 'top-right',
+    autoClose: 5000,
+    hideProgressBar: false,
+    closeOnClick: true,
+    draggable: true,
+    progress: undefined,
+  };
+
   return (
     <div id="aboutMe">
       <Container>
@@ -48,6 +61,18 @@ export default function AboutMe() {
               <a href="#projects">my projects</a> section of my site, they are
               my featured projects and what I spend most of my time on.
             </p>
+            <Button
+              id="randomJsFactButton"
+              startIcon={<JavascriptIcon />}
+              onClick={() =>
+                toast.info(
+                  `${js[Math.floor(Math.random() * js.length)].fact}`,
+                  toastSettingsObj
+                )
+              }
+            >
+              Random Javascript Fact
+            </Button>
           </Grid>
           <Grid className="gridItem" item mx="auto" md={5}>
             <Grid

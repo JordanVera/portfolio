@@ -1,7 +1,7 @@
 import React from 'react';
 import { Typography, Container } from '@mui/material';
 
-import ProjectTabs from './Projects/ProjectTabs.jsx';
+import ProjectTabs from './ProjectTabs.jsx';
 
 export default function Projects() {
   return (
