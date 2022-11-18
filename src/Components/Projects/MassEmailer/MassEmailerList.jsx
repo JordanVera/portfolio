@@ -18,19 +18,19 @@ export default function InteractiveList() {
         <List>
           <ListItem>
             <ListItemIcon>
-              <BoltSharpIcon sx={{ color: '#ff005a' }} />
+              <BoltSharpIcon className="green" />
             </ListItemIcon>
             <ListItemText primary="A node.js application I built and still use at the company I work for today to send mass emails to customers, insurance adjusters, future customers." />
           </ListItem>
           <ListItem>
             <ListItemIcon>
-              <BoltSharpIcon sx={{ color: '#ff005a' }} />
+              <BoltSharpIcon className="green" />
             </ListItemIcon>
             <ListItemText primary="This app has been used by our bosses for recruiting events and more, became a great way to get a message to a large amount of people easily for my company." />
           </ListItem>
           <ListItem>
             <ListItemIcon>
-              <BoltSharpIcon sx={{ color: '#ff005a' }} />
+              <BoltSharpIcon className="green" />
             </ListItemIcon>
             <ListItemText primary="This app is very light weight and only contains 3 npm dependencies.  Those being @sendgrid/mail, dotenv, and nodemon." />
           </ListItem>

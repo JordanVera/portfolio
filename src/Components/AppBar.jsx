@@ -36,7 +36,7 @@ const ResponsiveAppBar = () => {
   }
 
   return (
-    <AppBar id="appBar" position="static">
+    <AppBar id="appBar" style={{ position: 'fixed' }}>
       <Container>
         <Toolbar disableGutters>
           <Typography

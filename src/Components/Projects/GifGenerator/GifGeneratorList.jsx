@@ -18,19 +18,19 @@ export default function GifGeneratorList() {
         <List>
           <ListItem>
             <ListItemIcon>
-              <BoltSharpIcon sx={{ color: '#ff005a' }} />
+              <BoltSharpIcon className="green" />
             </ListItemIcon>
             <ListItemText primary="The site allows you to give it a topic and will generate gifs based upon the topic given." />
           </ListItem>
           <ListItem>
             <ListItemIcon>
-              <BoltSharpIcon sx={{ color: '#ff005a' }} />
+              <BoltSharpIcon className="green" />
             </ListItemIcon>
             <ListItemText primary="This is a front end only application that was one of my first exposures with using external apis." />
           </ListItem>
           <ListItem>
             <ListItemIcon>
-              <BoltSharpIcon sx={{ color: '#ff005a' }} />
+              <BoltSharpIcon className="green" />
             </ListItemIcon>
             <ListItemText primary="The application will also give the rating of the gif shown for each result, and also have some default topics chosen ny me." />
           </ListItem>

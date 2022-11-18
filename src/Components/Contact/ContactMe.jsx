@@ -35,7 +35,7 @@ export default function ContactMe() {
                     flexWrap: 'wrap',
                   }}
                 >
-                  <MailIcon className="pink" />
+                  <MailIcon className="green" />
                   <p
                     style={{
                       fontSize: '14px',
@@ -54,7 +54,7 @@ export default function ContactMe() {
                     margin: '12px 0 12px 0',
                   }}
                 >
-                  <GitHubIcon className="pink" />
+                  <GitHubIcon className="green" />
                   <p
                     style={{
                       fontSize: '14px',
@@ -73,7 +73,7 @@ export default function ContactMe() {
                     margin: '12px 0 12px 0',
                   }}
                 >
-                  <LinkedInIcon className="pink" />
+                  <LinkedInIcon className="green" />
                   <p
                     style={{
                       fontSize: '11px',

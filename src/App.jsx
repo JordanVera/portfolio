@@ -11,7 +11,7 @@ const darkTheme = createTheme({
       main: '#8400ff',
     },
     secondary: {
-      main: '#ff005a',
+      main: '#48E330',
     },
   },
 });

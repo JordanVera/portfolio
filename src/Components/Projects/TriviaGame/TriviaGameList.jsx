@@ -18,19 +18,19 @@ export default function TriviaGameList() {
         <List>
           <ListItem>
             <ListItemIcon>
-              <BoltSharpIcon sx={{ color: '#ff005a' }} />
+              <BoltSharpIcon className="green" />
             </ListItemIcon>
             <ListItemText primary="Horror themed trivia site built using javascript.  This was my first real project EVER!" />
           </ListItem>
           <ListItem>
             <ListItemIcon>
-              <BoltSharpIcon sx={{ color: '#ff005a' }} />
+              <BoltSharpIcon className="green" />
             </ListItemIcon>
             <ListItemText primary="A trivia game that will tally results and give you a score at the end." />
           </ListItem>
           <ListItem>
             <ListItemIcon>
-              <BoltSharpIcon sx={{ color: '#ff005a' }} />
+              <BoltSharpIcon className="green" />
             </ListItemIcon>
             <ListItemText primary="Beware of scares if a wrong answer is given, and be sure to have the volume on when playing this game." />
           </ListItem>

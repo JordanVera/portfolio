@@ -18,19 +18,19 @@ export default function InteractiveList() {
         <List>
           <ListItem>
             <ListItemIcon>
-              <BoltSharpIcon sx={{ color: '#ff005a' }} />
+              <BoltSharpIcon className="green" />
             </ListItemIcon>
             <ListItemText primary="A fantasy football pool web application.  This app is built using express, passport, axios, bcryptjs, lodash, mongodb, mongoose, and EJS just to name a few." />
           </ListItem>
           <ListItem>
             <ListItemIcon>
-              <BoltSharpIcon sx={{ color: '#ff005a' }} />
+              <BoltSharpIcon className="green" />
             </ListItemIcon>
             <ListItemText primary="This app includes user login and authentication, a full checkout process through cryptocurrency, and a rock solid express backend api." />
           </ListItem>
           <ListItem>
             <ListItemIcon>
-              <BoltSharpIcon sx={{ color: '#ff005a' }} />
+              <BoltSharpIcon className="green" />
             </ListItemIcon>
             <ListItemText primary="The objective of NFL Last Longer is to pick one NFL team each week to win the game, not against the spread, and you can only pick each team once." />
           </ListItem>

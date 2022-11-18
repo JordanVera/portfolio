@@ -37,8 +37,8 @@ export default function PgaAlphaTab() {
         variant="h5"
         component="div"
       >
-        Featured Project - please be sure to check it out on the web, also if
-        you are interested in the code I included the github link
+        <span className="green">Featured Project</span> - Project hosted on a
+        free heroku server, please give the app 20-30 seconds to load.
       </Typography>
 
       <Box sx={{ mx: 2 }}>

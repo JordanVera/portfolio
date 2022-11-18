@@ -18,19 +18,19 @@ export default function InteractiveList() {
         <List>
           <ListItem>
             <ListItemIcon>
-              <BoltSharpIcon sx={{ color: '#ff005a' }} />
+              <BoltSharpIcon className="green" />
             </ListItemIcon>
             <ListItemText primary="A data visualization web app to view real-time stats about your favorite PGA golfers" />
           </ListItem>
           <ListItem>
             <ListItemIcon>
-              <BoltSharpIcon sx={{ color: '#ff005a' }} />
+              <BoltSharpIcon className="green" />
             </ListItemIcon>
             <ListItemText primary="Check golf standings, strokes gained data, upcoming tournaments, live betting odds, and much more within the web app." />
           </ListItem>
           <ListItem>
             <ListItemIcon>
-              <BoltSharpIcon sx={{ color: '#ff005a' }} />
+              <BoltSharpIcon className="green" />
             </ListItemIcon>
             <ListItemText primary="Express, React, Chart.js, MongoDB, Node.js, Axios, and many more modern technologies used to build PGA Alpha" />
           </ListItem>

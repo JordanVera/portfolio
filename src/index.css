@@ -5,9 +5,9 @@
   --black: #000;
   --orange: #ff9800;
   --white: #fff;
-  --blue: #1976D2;
   --purple: #8400ff;
-  --pink:  #ff005a}
+  --green:  #48E330
+}
 
 html {
   scroll-behavior: smooth;
@@ -57,7 +57,7 @@ h5 {
 h6 {
   font-family: "Roboto","Helvetica","Arial",sans-serif }
 
-.pink {color: var(--pink) !important } 
+.green {color: var(--green) !important } 
 .whiteFill{fill: var(--white); padding: 8px}
 .purple {color: var(--purple) !important } 
 
@@ -68,7 +68,7 @@ h6 {
 
   .tabLinks {
     padding: 2px;
-    color: var(--pink);
+    color: var(--green);
     margin: 0 4px; 
     text-decoration: none;
      }
@@ -107,7 +107,7 @@ h6 {
 
 .MuiMenu-list {
   color: var(--white);
-  background-color: var(--pink); }
+  background-color: var(--green); }
 
 .dice {
   margin-bottom: 24px !important;
@@ -163,7 +163,7 @@ h6 {
 }
 
 .MuiRating-iconFilled {
-  color: var(--pink);
+  color: var(--green);
 }
 
 
@@ -194,6 +194,14 @@ h6 {
     text-align: center;
     color: var(--white); }
 
+.projectPills .MuiChip-label {
+  color: var(--black);
+}
+
+.MuiChip-root svg {
+  fill: var(--black)
+}
+
 #movieDice h4{
   margin: 24px 0;
   text-align: center;
@@ -207,7 +215,7 @@ h6 {
 #aboutMe h4, #contactMe h4 {
   margin: 0 0 16px 0;
   font-size: 24px;
-  color: var(--pink); }
+  color: var(--green); }
 
 #aboutMe .MuiGrid-item {
   margin-bottom: 24px; }
