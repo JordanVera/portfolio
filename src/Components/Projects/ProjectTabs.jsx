@@ -78,9 +78,9 @@ export default function ProjectTabs() {
       >
         <Tab label="PGA Alpha" {...a11yProps(0)} />
         <Tab label="NFL Last Longer" {...a11yProps(1)} />
-        <Tab label="Mass Emailer" {...a11yProps(2)} />
-        <Tab label="Gif Generator" {...a11yProps(3)} />
-        <Tab label="Trivia Game" {...a11yProps(4)} />
+        <Tab label="Gif Generator" {...a11yProps(2)} />
+        <Tab label="Trivia Game" {...a11yProps(3)} />
+        <Tab label="Mass Emailer" {...a11yProps(4)} />
       </Tabs>
 
       <TabPanel value={value} index={0}>
@@ -90,13 +90,13 @@ export default function ProjectTabs() {
         <NflLastLongerTab />
       </TabPanel>
       <TabPanel value={value} index={2}>
-        <MassEmailerTab />
-      </TabPanel>
-      <TabPanel value={value} index={3}>
         <GifGeneratorTab />
       </TabPanel>
-      <TabPanel value={value} index={4}>
+      <TabPanel value={value} index={3}>
         <TriviaGameTab />
+      </TabPanel>
+      <TabPanel value={value} index={4}>
+        <MassEmailerTab />
       </TabPanel>
     </Box>
   );
