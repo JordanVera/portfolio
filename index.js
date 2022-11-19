@@ -20,10 +20,9 @@ app.use(
 );
 
 app.use(morgan('tiny'));
-
 app.use(bodyparser.json());
-
 app.use(cors());
+
 
 app.use(express.static(path.join(__dirname, 'build')));
 

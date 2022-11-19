@@ -7,7 +7,7 @@ export default function ReactJs() {
 
   return (
     <>
-      <h5>React Js</h5>
+      <h5>React</h5>
       <Box display="flex" justifyContent="center" alignItems="center">
         <Rating
           name="read-only"
