@@ -6,7 +6,7 @@
   --orange: #ff9800;
   --white: #fff;
   --purple: #8400ff;
-  --green:  #48E330
+  --pink: #bd47bd;
 }
 
 html {
@@ -28,8 +28,15 @@ code {
 p {
   margin-top: 0; }
 
-a {
-  color: var(--purple);
+#aboutMe a,
+#movieDice a {
+  color: #fff;
+  text-shadow: 0 0 1px hsla(0,0%,100%,.667),0 0 2px var(--orange),0 0 4px var(--orange),0 0 6px var(--orange);
+}
+
+.MuiMenuItem-root:hover {
+  color: #fff;
+  text-shadow: 0 0 1px hsla(0,0%,100%,.667),0 0 2px var(--orange),0 0 4px var(--orange),0 0 6px var(--orange);
 }
 
 h1 {
@@ -57,9 +64,12 @@ h5 {
 h6 {
   font-family: "Roboto","Helvetica","Arial",sans-serif }
 
-.green {color: var(--green) !important } 
+.green {color: #fff;
+  text-shadow: 0 0 1px hsla(0,0%,100%,.667),0 0 2px var(--pink),0 0 4px var(--pink),0 0 6px var(--pink);} 
 .whiteFill{fill: var(--white); padding: 8px}
 .purple {color: var(--purple) !important } 
+
+
 
 .socialMediaLink {
   padding: 2px;
@@ -68,9 +78,14 @@ h6 {
 
   .tabLinks {
     padding: 2px;
-    color: var(--green);
+    color: #fff;
+    text-shadow: 0 0 1px hsla(0,0%,100%,.667),0 0 2px var(--pink),0 0 4px var(--pink),0 0 6px var(--pink);
     margin: 0 4px; 
     text-decoration: none;
+     }
+
+     .MuiTabs-indicator {
+      background-color: #fff !important;
      }
 
      .MuiTabs-root  {
@@ -107,7 +122,7 @@ h6 {
 
 .MuiMenu-list {
   color: var(--white);
-  background-color: var(--green); }
+  background-color: var(--pink); }
 
 .dice {
   margin-bottom: 24px !important;
@@ -162,11 +177,6 @@ h6 {
     color: #000;
 }
 
-.MuiRating-iconFilled {
-  color: var(--green);
-}
-
-
 #resume {
   background: var(--black); }
   #resume h2 {
@@ -186,6 +196,7 @@ h6 {
 
 #projects {
   color: var(--white);
+  margin-top: 48px; 
   margin-bottom: 48px; }
   #projects .MuiCard-root {
     margin: auto; }
@@ -194,12 +205,17 @@ h6 {
     text-align: center;
     color: var(--white); }
 
+    #projects .Mui-selected {
+      color: #fff;
+      text-shadow: 0 0 1px hsla(0,0%,100%,.667),0 0 2px var(--pink),0 0 4px var(--pink),0 0 6px var(--pink);
+    }
+
 .projectPills .MuiChip-label {
-  color: var(--black);
+  color: var(--white);
 }
 
 .MuiChip-root svg {
-  fill: var(--black)
+  fill: var(--white)
 }
 
 #movieDice h4{
@@ -215,7 +231,9 @@ h6 {
 #aboutMe h4, #contactMe h4 {
   margin: 0 0 16px 0;
   font-size: 24px;
-  color: var(--green); }
+  color: #fff;
+  text-shadow: 0 0 1px hsla(0,0%,100%,.667),0 0 2px var(--pink),0 0 4px var(--pink),0 0 6px var(--pink);
+}
 
 #aboutMe .MuiGrid-item {
   margin-bottom: 24px; }

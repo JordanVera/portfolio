@@ -46,13 +46,20 @@ export default function AboutMe() {
               working within nodejs.
             </p>
             <p>
-              I graduated from the UT Austin Coding Bootcamp in 2018, and since
-              then have been honing my skills as a full-stack web developer.
+              I graduated from the{' '}
+              <a
+                href="https://techbootcamps.utexas.edu/coding/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                UT Austin Coding Bootcamp
+              </a>{' '}
+              in 2018, and since then have been honing my skills as a full-stack
+              web developer. I love building web applications, and lately I have
+              been diving into data visualization and MERN development.
             </p>
             <p>
-              My main focus has been building web applications, and lately I
-              have been diving into data visualization and MERN development. I
-              am familiar with many technologys from node.js, react, express,
+              I am familiar with many technologys from node.js, react, express,
               mongoDB, mongoose, axios, node.js, lodash, socket, chart.js,
               redux, scss, html5, git, and much more.
             </p>
