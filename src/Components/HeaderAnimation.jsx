@@ -10,7 +10,7 @@ export default function HeaderAnimation() {
 
       <div className="role">
         <div className="block"></div>
-        <p align="center">MERN DEVELOPER</p>
+        <p align="center orange">MERN DEVELOPER</p>
       </div>
     </div>
   );

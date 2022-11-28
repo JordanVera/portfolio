@@ -29,7 +29,8 @@ p {
   margin-top: 0; }
 
 #aboutMe a,
-#movieDice a {
+#movieDice a,
+#resume button {
   color: #fff;
   text-shadow: 0 0 1px hsla(0,0%,100%,.667),0 0 2px var(--orange),0 0 4px var(--orange),0 0 6px var(--orange);
 }
@@ -95,6 +96,17 @@ h6 {
 #jumbotron h3 {
   color: var(--white); }
 
+.title h1 {
+  color: #fff !important;
+  text-shadow: 0 0 1px hsla(0,0%,100%,.667),0 0 2px var(--pink),0 0 4px var(--pink),0 0 6px var(--pink);
+}
+
+.role p { 
+  color: #fff !important;
+  font-size: 16px !important;
+  text-shadow: 0 0 1px hsla(0,0%,100%,.667),0 0 2px var(--orange),0 0 4px var(--orange),0 0 6px var(--orange);
+}
+
 
 .gridItem p, .gridItem h4  {
   color: var(--white);
@@ -145,10 +157,6 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center; }
-
-  #jumbotronAnimation .role p{
-    font-size: 16px;
-  }
 
   .jumbotronImage {
     position: relative;
@@ -395,10 +403,6 @@ input[type="button"]:hover {
     }
   }
 
-  .image2 {
-    display: none;
-  }
-
   .MuiChip-label {
     padding-left: 6px !important;
   }
@@ -419,7 +423,7 @@ input[type="button"]:hover {
         font-size: 182px;
     }
 
-    .image1, .projectPills {
+    .projectPills {
       display: none;
     }
 
