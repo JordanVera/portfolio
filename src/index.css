@@ -236,7 +236,7 @@ h6 {
   color: var(--white);
   }
 
-#aboutMe h4, #contactMe h4 {
+#aboutMe h4, #contactMe h4, #movieDice h4 {
   margin: 0 0 16px 0;
   font-size: 24px;
   color: #fff;
@@ -392,7 +392,7 @@ input[type="button"]:hover {
 
 
 
-  #aboutMe p, #movieDice p, #chessGame p, #aboutMe p{  
+  #aboutMe p, #movieDice p, #chessGame p {  
     line-height: 2rem;
   }
   

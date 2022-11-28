@@ -12,8 +12,7 @@ export default function MovieDice() {
   const [diceNumber, setDiceNumber] = useState(0);
 
   return (
-    <Container id="movieDice">
-      <Typography variant="h4">Movie Dice</Typography>
+    <Container id="movieDice" sx={{ my: 5 }}>
       <Grid
         container
         spacing={0}
@@ -21,7 +20,23 @@ export default function MovieDice() {
         alignItems="center"
         justifyContent="center"
       >
-        <Grid item alignItems="center" justify="center">
+        <Grid
+          item
+          alignItems="center"
+          justify="center"
+          sx={{
+            bgcolor: 'background.paper',
+            py: 2,
+            px: 2,
+            height: 'auto',
+            minWidth: 'auto',
+            maxWidth: '800px',
+            mx: 'auto',
+          }}
+        >
+          <Typography variant="h4" sx={{ py: 2 }}>
+            Movie Dice
+          </Typography>
           <div className="dice">
             <Dice
               onRoll={(num) => {
