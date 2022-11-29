@@ -5,10 +5,8 @@ import ProjectTabs from './ProjectTabs.jsx';
 
 export default function Projects() {
   return (
-    <div id="projects">
-      <Container>
-        <ProjectTabs />
-      </Container>
-    </div>
+    <Container id="projects">
+      <ProjectTabs />
+    </Container>
   );
 }

@@ -18,21 +18,21 @@ export default function InteractiveList() {
         <List>
           <ListItem>
             <ListItemIcon>
-              <BoltSharpIcon className="green" />
+              <BoltSharpIcon />
             </ListItemIcon>
-            <ListItemText primary="A lightweight decked out trivia game.  This app has many premium features for a trivia application." />
+            <ListItemText primary="A decked out trivia game.  This app has many premium features for a trivia application." />
           </ListItem>
           <ListItem>
             <ListItemIcon>
-              <BoltSharpIcon className="green" />
+              <BoltSharpIcon />
             </ListItemIcon>
-            <ListItemText primary="Choose a category, question difficulty, and number of questions to be quizzed upon." />
+            <ListItemText primary="Choose a category, question difficulty, and number of questions to be quizzed upon.  Questions sources from the trivia api." />
           </ListItem>
           <ListItem>
             <ListItemIcon>
-              <BoltSharpIcon className="green" />
+              <BoltSharpIcon />
             </ListItemIcon>
-            <ListItemText primary="Very lightweight in terms on packages and frameworks.  Project uses Vite, React, and a few more packages." />
+            <ListItemText primary="Very lightweight in terms of packages and frameworks.  Project uses Vite, React, and a few more packages." />
           </ListItem>
         </List>
       </Grid>

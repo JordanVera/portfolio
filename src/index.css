@@ -18,7 +18,7 @@ html {
 body {
   margin: 0;
   font-family: "Lato", sans-serif;
-  background-color: var(--grey);
+  background-color: #0E0E0D;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -30,7 +30,8 @@ p {
 
 #aboutMe a,
 #movieDice a,
-#resume button {
+#resume button,
+.resumeHeader {
   color: #fff;
   text-shadow: 0 0 1px hsla(0,0%,100%,.667),0 0 2px var(--orange),0 0 4px var(--orange),0 0 6px var(--orange);
 }
@@ -186,7 +187,9 @@ h6 {
 }
 
 #resume {
-  background: var(--black); }
+  background: var(--black);
+  
+}
   #resume h2 {
     color: var(--white); }
   #resume button {
