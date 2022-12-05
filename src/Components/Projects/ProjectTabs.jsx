@@ -8,7 +8,6 @@ import PgaAlphaTab from './PgaAlpha/PgaAlphaTab';
 import NflLastLongerTab from './NflLastLonger/NflLastLongerTab';
 import MassEmailerTab from './MassEmailer/MassEmailerTab';
 import GifGeneratorTab from './GifGenerator/GifGeneratorTab';
-import TriviaGameTab from './TriviaGame/TriviaGameTab';
 import TriviaTab from './Trivia/TriviaTab';
 
 function TabPanel(props) {
@@ -78,30 +77,26 @@ export default function ProjectTabs() {
         }}
       >
         <Tab label="PGA Alpha" {...a11yProps(0)} />
-        <Tab label="Trivia" {...a11yProps(1)} />
-        <Tab label="NFL Last Longer" {...a11yProps(2)} />
+        <Tab label="NFL Last Longer" {...a11yProps(1)} />
+        <Tab label="Trivia" {...a11yProps(2)} />
         <Tab label="Gif Generator" {...a11yProps(3)} />
         <Tab label="Mass Emailer" {...a11yProps(4)} />
-        <Tab label="Trivia Game" {...a11yProps(5)} />
       </Tabs>
 
       <TabPanel value={value} index={0}>
         <PgaAlphaTab />
       </TabPanel>
       <TabPanel value={value} index={1}>
-        <TriviaTab />
+        <NflLastLongerTab />
       </TabPanel>
       <TabPanel value={value} index={2}>
-        <NflLastLongerTab />
+        <TriviaTab />
       </TabPanel>
       <TabPanel value={value} index={3}>
         <GifGeneratorTab />
       </TabPanel>
       <TabPanel value={value} index={4}>
         <MassEmailerTab />
-      </TabPanel>
-      <TabPanel value={value} index={5}>
-        <TriviaGameTab />
       </TabPanel>
     </Box>
   );
