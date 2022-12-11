@@ -32,13 +32,7 @@ export default function AboutMe() {
     <div id="aboutMe">
       <Container>
         <Grid container>
-          <Grid
-            className="gridItem"
-            item
-            md={7}
-            sx={{ py: 2, px: 2 }}
-            className="bgGrey"
-          >
+          <Grid className="gridItem bgGrey" item md={7} sx={{ py: 2, px: 2 }}>
             <Typography variant="h4">About Me</Typography>
             <Divider sx={{ my: 1 }} />
             <p>
