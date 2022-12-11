@@ -36,7 +36,8 @@ export default function AboutMe() {
             className="gridItem"
             item
             md={7}
-            sx={{ bgcolor: 'background.paper', py: 2, px: 2 }}
+            sx={{ py: 2, px: 2 }}
+            className="bgGrey"
           >
             <Typography variant="h4">About Me</Typography>
             <Divider sx={{ my: 1 }} />

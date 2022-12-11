@@ -1,7 +1,6 @@
 @import "https://fonts.googleapis.com/css2?family=Lato&family=Lora&display=swap";
 :root {
   --grey: #191919;
-  --lightgrey: #34495e;
   --black: #000;
   --orange: #ff9800;
   --white: #fff;
@@ -70,6 +69,10 @@ h6 {
   text-shadow: 0 0 1px hsla(0,0%,100%,.667),0 0 2px var(--pink),0 0 4px var(--pink),0 0 6px var(--pink);} 
 .whiteFill{fill: var(--white); padding: 8px}
 .purple {color: var(--purple) !important } 
+
+.bgGrey {
+  background-color: var(--grey);
+}
 
 
 
@@ -237,6 +240,10 @@ h6 {
   .subtitle {
     text-align: center;
   color: var(--white);
+  }
+
+  #aboutMe {
+    color: var(--white);
   }
 
 #aboutMe h4, #contactMe h4, #movieDice h4 {

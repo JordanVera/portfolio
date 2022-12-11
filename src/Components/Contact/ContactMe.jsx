@@ -12,10 +12,9 @@ export default function ContactMe() {
       <Container>
         <Grid container>
           <Grid
-            className="gridItem"
+            className="gridItem bgGrey"
             item
             sx={{
-              bgcolor: 'background.paper',
               py: 2,
               px: 2,
               height: 'auto',

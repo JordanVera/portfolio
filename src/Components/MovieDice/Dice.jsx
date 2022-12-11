@@ -24,8 +24,8 @@ export default function MovieDice() {
           item
           alignItems="center"
           justify="center"
+          className="bgGrey"
           sx={{
-            bgcolor: 'background.paper',
             py: 2,
             px: 2,
             height: 'auto',

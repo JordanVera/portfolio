@@ -52,9 +52,9 @@ export default function ProjectTabs() {
 
   return (
     <Box
-      sx={{
-        flexGrow: 1,
-        bgcolor: 'background.paper',
+    className='bgGrey'
+    sx={{
+      flexGrow: 1,
         display: 'flex',
         height: 'auto',
         minWidth: 'auto',
