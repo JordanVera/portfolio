@@ -30,7 +30,8 @@ p {
 #aboutMe a,
 #movieDice a,
 #resume button,
-.resumeHeader {
+.resumeHeader,
+#openAiForm .submitButton {
   color: #fff;
   text-shadow: 0 0 1px hsla(0,0%,100%,.667),0 0 2px var(--orange),0 0 4px var(--orange),0 0 6px var(--orange);
 }
@@ -109,6 +110,34 @@ h6 {
   color: #fff !important;
   font-size: 16px !important;
   text-shadow: 0 0 1px hsla(0,0%,100%,.667),0 0 2px var(--orange),0 0 4px var(--orange),0 0 6px var(--orange);
+}
+
+#openAiForm {
+  margin: 46px 0;
+  padding-bottom: 16px;
+}
+#openAiForm .subtitle{
+  color: var(--white);
+  text-align: left;
+}
+
+#image-form {
+  margin: 0;
+}
+
+#image-form .formInput {
+  width: 100% !important;
+}
+#image-form .submitButton {
+  width: 100%;
+}
+
+.generatedImg {
+  width: 180px;
+}
+
+.MuiFormControl-root {
+  margin-top: 0 !important;
 }
 
 
@@ -245,7 +274,7 @@ h6 {
     color: var(--white);
   }
 
-#aboutMe h4, #contactMe h4, #movieDice h4 {
+#aboutMe h4, #contactMe h4, #movieDice h4, #openAiForm h4 {
   margin: 0 0 16px 0;
   font-size: 24px;
   color: #fff;

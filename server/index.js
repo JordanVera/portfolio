@@ -1,8 +1,10 @@
 const express = require('express');
 const postSubmitForm = require('./api/submitForm.js');
+const { generateImage } = require('./api/controllers/openaiController.js');
+const router = express.Router();
 
-const app = express();
+router.post('/submitForm', postSubmitForm);
 
-app.post('/submitForm', postSubmitForm);
+router.post('/generateimage', generateImage);
 
-module.exports = app;
+module.exports = router;

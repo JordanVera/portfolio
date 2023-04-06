@@ -23,6 +23,7 @@ app.use(morgan('tiny'));
 app.use(bodyparser.json());
 app.use(cors());
 
+app.use('/openai', require('./server/index'));
 
 app.use(express.static(path.join(__dirname, 'build')));
 
