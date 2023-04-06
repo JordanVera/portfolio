@@ -121,7 +121,7 @@ h6 {
   z-index: 999;
   top: 0;
   left: 0;
-  background-color: var(--black);
+  background: #191919 !important;
   box-shadow: none !important; }
   #appBar .navLink {
     color: var(--white);
@@ -190,8 +190,7 @@ h6 {
 }
 
 #resume {
-  background: var(--black);
-  
+  background: #191919;
 }
   #resume h2 {
     color: var(--white); }
@@ -405,7 +404,7 @@ input[type="button"]:hover {
   #aboutMe p, #movieDice p, #chessGame p {  
     line-height: 2rem;
   }
-  
+
 
   @media only screen and (max-width: 600px) {
     .notfound .notfound-404 h2 {
@@ -442,6 +441,9 @@ input[type="button"]:hover {
     }
 
   }  
+
+ 
+  
 
 /*** iPhone and iOS Form Input Zoom Fixes ***/
 /* Fix Input Zoom on devices older than iPhone 5: */
