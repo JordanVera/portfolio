@@ -6,13 +6,13 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 const generateImage = async (req, res) => {
-  const { prompt } = req.body;
+  const { prompt, size, count } = req.body;
 
   try {
     const response = await openai.createImage({
       prompt,
-      n: 1,
-      size: '256x256',
+      n: Number(count),
+      size,
     });
 
     const imageUrls = response.data.data;

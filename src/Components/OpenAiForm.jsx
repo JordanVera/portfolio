@@ -20,7 +20,7 @@ const OpenAiForm = () => {
   const [errorMessage, setErrorMessage] = useState('');
 
   const onSubmit = (data) => {
-    const { prompt, size, count } = data;
+    let { prompt, size, count } = data;
     console.log({ prompt, size, count });
 
     if (prompt === '') {
@@ -28,6 +28,8 @@ const OpenAiForm = () => {
       return;
     }
 
+    size = '256x256';
+    count = 1;
     generateImageRequest(prompt, size, count);
   };
 
