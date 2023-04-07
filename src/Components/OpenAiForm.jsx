@@ -12,6 +12,7 @@ import {
   Grid,
 } from '@mui/material';
 import Spinner from './Spinner.jsx';
+import { url } from '../config/config';
 
 const OpenAiForm = () => {
   const { register, handleSubmit } = useForm();
@@ -39,20 +40,17 @@ const OpenAiForm = () => {
       setImageURL([]);
       setErrorMessage('');
 
-      const response = await fetch(
-        'http://localhost:5555/openai/generateimage',
-        {
-          method: 'POST',
-          headers: {
-            'content-type': 'Application/json',
-          },
-          body: JSON.stringify({
-            prompt,
-            size,
-            count,
-          }),
-        }
-      );
+      const response = await fetch(`${url}/openai/generateimage`, {
+        method: 'POST',
+        headers: {
+          'content-type': 'Application/json',
+        },
+        body: JSON.stringify({
+          prompt,
+          size,
+          count,
+        }),
+      });
 
       if (!response.ok) {
         setLoading(false);
@@ -62,9 +60,9 @@ const OpenAiForm = () => {
       setLoading(false);
 
       const data = await response.json();
-      const url = data.data;
+      const res = data.data;
 
-      setImageURL(url);
+      setImageURL(res);
 
       console.log(data);
     } catch (error) {

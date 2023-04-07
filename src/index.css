@@ -112,6 +112,25 @@ h6 {
   text-shadow: 0 0 1px hsla(0,0%,100%,.667),0 0 2px var(--orange),0 0 4px var(--orange),0 0 6px var(--orange);
 }
 
+.logoBanner {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  overflow: auto;
+  white-space: nowrap;
+  background: var(--grey);
+}
+
+.logoBanner img {
+  display: inline-block;
+}
+
+.nflLogo {
+  height: 50px;
+  width: 50px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
 #openAiForm {
   margin: 46px 0;
   padding-bottom: 16px;

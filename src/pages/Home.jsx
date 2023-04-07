@@ -4,6 +4,7 @@ import Projects from '../Components/Projects/Projects.jsx';
 import Footer from '../Components/Footer.jsx';
 import Resume from '../Components/Resume.jsx';
 import OpenAiForm from '../Components/OpenAiForm.jsx';
+import Logos from '../Components/Logos.jsx';
 import { ToastContainer } from 'react-toastify';
 import MovieDice from '../Components/MovieDice/Dice';
 import AboutMe from '../Components/AboutMe.jsx';
@@ -32,6 +33,7 @@ export default function Home() {
         draggable
         pauseOnHover
       />
+      {/* <Logos /> */}
       <Footer />
     </div>
   );
