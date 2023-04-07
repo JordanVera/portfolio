@@ -32,6 +32,7 @@ p {
 #resume button,
 .resumeHeader,
 #openAiForm .submitButton,
+#contactMe .submitButton,
 .MuiMenuItem-root:hover  {
   color: #fff;
   text-shadow: 0 0 1px hsla(0,0%,100%,.667),0 0 2px var(--orange),0 0 4px var(--orange),0 0 6px var(--orange);
@@ -528,6 +529,10 @@ input[type="button"]:hover {
   text-shadow: 0 0 1px hsla(0,0%,100%,.667),0 0 2px var(--orange),0 0 4px var(--orange),0 0 6px var(--orange);
 }
 
+.contactModal {
+  width: 400px;
+}
+
   #aboutMe p, #movieDice p, #chessGame p {  
     line-height: 2rem;
   }
@@ -556,6 +561,10 @@ input[type="button"]:hover {
   @media only screen and (max-width: 480px) {
     .notfound .notfound-404 h1 {
         font-size: 182px;
+    }
+
+    .contactModal {
+      width: 90vw;
     }
   }  
 
