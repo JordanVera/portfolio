@@ -12,7 +12,7 @@ import {
   Grid,
 } from '@mui/material';
 import Spinner from './Spinner.jsx';
-import { url } from '../config/config';
+import { url } from '../config/config.js';
 
 const OpenAiForm = () => {
   const { register, handleSubmit } = useForm();
