@@ -22,7 +22,6 @@ const OpenAiForm = () => {
 
   const onSubmit = (data) => {
     let { prompt, size, count } = data;
-    console.log({ prompt, size, count });
 
     if (prompt === '') {
       alert('Please add more text');
@@ -31,6 +30,8 @@ const OpenAiForm = () => {
 
     size = '256x256';
     count = 1;
+
+    console.log({ prompt, size, count });
     generateImageRequest(prompt, size, count);
   };
 
