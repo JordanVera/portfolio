@@ -31,12 +31,8 @@ p {
 #movieDice a,
 #resume button,
 .resumeHeader,
-#openAiForm .submitButton {
-  color: #fff;
-  text-shadow: 0 0 1px hsla(0,0%,100%,.667),0 0 2px var(--orange),0 0 4px var(--orange),0 0 6px var(--orange);
-}
-
-.MuiMenuItem-root:hover {
+#openAiForm .submitButton,
+.MuiMenuItem-root:hover  {
   color: #fff;
   text-shadow: 0 0 1px hsla(0,0%,100%,.667),0 0 2px var(--orange),0 0 4px var(--orange),0 0 6px var(--orange);
 }
@@ -520,7 +516,17 @@ input[type="button"]:hover {
     color: #8400ff;
   }
 
+.smallLink {
+  font-size: 14px;
+  margin-bottom: 0;
+  color: #fff;
+  text-shadow: 0 0 1px hsla(0,0%,100%,.667),0 0 2px var(--orange),0 0 4px var(--orange),0 0 6px var(--orange);
+}
 
+.smallLink:hover {
+  color: #fff;
+  text-shadow: 0 0 1px hsla(0,0%,100%,.667),0 0 2px var(--orange),0 0 4px var(--orange),0 0 6px var(--orange);
+}
 
   #aboutMe p, #movieDice p, #chessGame p {  
     line-height: 2rem;

@@ -35,15 +35,18 @@ export default function ContactMe() {
                   }}
                 >
                   <MailIcon className="green" />
-                  <p
+                  <a
+                    className="smallLink"
                     style={{
-                      fontSize: '14px',
-                      marginBottom: 0,
                       marginLeft: 8,
                     }}
+                    href="mailto:verawebdev@protonmail.com"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     Verawebdev@protonmail.com
-                  </p>
+                  </a>
+                  <p></p>
                 </div>
                 <div
                   style={{
@@ -54,15 +57,17 @@ export default function ContactMe() {
                   }}
                 >
                   <GitHubIcon className="green" />
-                  <p
+                  <a
+                    className="smallLink"
                     style={{
-                      fontSize: '14px',
-                      marginBottom: 0,
                       marginLeft: 8,
                     }}
+                    href={'github.com/JordanVera'}
+                    target="_blank"
+                    rel="noreferrer"
                   >
-                    github.com/JordanVera
-                  </p>
+                    github.com/JordanVera{' '}
+                  </a>
                 </div>
                 <div
                   style={{
@@ -73,15 +78,16 @@ export default function ContactMe() {
                   }}
                 >
                   <LinkedInIcon className="green" />
-                  <p
+                  <a
+                    className="smallLink"
                     style={{
-                      fontSize: '11px',
-                      marginBottom: 0,
                       marginLeft: 8,
                     }}
+                    href="linkedin.com/in/jordan-vera-836701161"
+                    target="_blank"
                   >
-                    linkedin.com/in/jordan-vera-836701161/{' '}
-                  </p>
+                    linkedin.com/JordanVera{' '}
+                  </a>
                 </div>
               </Grid>
               <Grid item sm={8} sx={{ px: 2 }}>
