@@ -69,7 +69,11 @@ const OpenAiForm = () => {
   }
 
   return loading ? (
-    <Spinner />
+    <Container>
+      <main id="openAiForm" className="bgGrey">
+        <Spinner />
+      </main>
+    </Container>
   ) : (
     <>
       <Container>

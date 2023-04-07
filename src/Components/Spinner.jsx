@@ -1,7 +1,7 @@
 import { GridLoader } from 'react-spinners';
 
 const Spinner = () => {
-  return <GridLoader color="#36d7b7" />;
+  return <GridLoader className="reactSpinner" color="#bd47bd" />;
 };
 
 export default Spinner;

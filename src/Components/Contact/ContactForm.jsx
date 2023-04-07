@@ -152,7 +152,6 @@ export default function ContactForm() {
         id="outlined-multiline-static"
         multiline
         rows={4}
-        defaultValue="Default Value"
         {...register('msg', {
           required: true,
         })}

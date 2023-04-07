@@ -7,7 +7,7 @@ import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-
+import { Link } from 'react-router-dom';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import Container from '@mui/material/Container';
 import MenuItem from '@mui/material/MenuItem';
@@ -45,11 +45,13 @@ const ResponsiveAppBar = () => {
             component="div"
             sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
           >
-            <img
-              className="appBarLogo"
-              src="./media/logoWhite.svg"
-              alt="logo"
-            />
+            <Link to="/">
+              <img
+                className="appBarLogo"
+                src="./media/logoWhite.svg"
+                alt="logo"
+              />
+            </Link>
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
