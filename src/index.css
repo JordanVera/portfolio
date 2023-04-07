@@ -131,9 +131,82 @@ h6 {
   margin-right: 12px;
 }
 
+.skillsImageGrid {  
+  display: grid;
+  padding: 36px 12px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 50px 50px; 
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Javascript React MongoDb"
+    "Sass Vite Redux"
+    "Material Heroku Bootstrap"
+    "Python MySQL Express";
+}
+
+.skillsLogo {
+  height: 62px;
+  width: 62px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.React img:hover, 
+.Material img:hover, 
+.Python img:hover,
+.MySQL img:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.Javascript img:hover {
+  filter: drop-shadow(0 0 2em yellow);
+}
+.Sass img:hover {
+  filter: drop-shadow(0 0 2em pink);
+}
+.Express img:hover {
+  filter: drop-shadow(0 0 2em red);
+}
+.Vite img:hover, 
+.Heroku img:hover, 
+.Bootstrap img:hover, 
+.Redux img:hover {
+  filter: drop-shadow(0 0 2em #646cffaa)
+}
+
+.MongoDb img:hover {
+  filter: drop-shadow(0 0 2em green)
+}
+
+.Javascript { grid-area: Javascript; }
+
+.React { grid-area: React; }
+
+.MongoDb { grid-area: MongoDb; }
+
+.Sass { grid-area: Sass; }
+
+.Vite { grid-area: Vite; }
+
+.Material { grid-area: Material; }
+
+.Heroku { grid-area: Heroku; }
+
+.Bootstrap { grid-area: Bootstrap; }
+
+.Redux { grid-area: Redux; }
+
+.Python { grid-area: Python; }
+
+.MySQL { grid-area: MySQL; }
+
+.Express { grid-area: Express; }
+
+
 #openAiForm {
   margin: 46px 0;
-  padding-bottom: 16px;
+  padding: 16px;
 }
 #openAiForm .subtitle{
   color: var(--white);
@@ -144,7 +217,7 @@ h6 {
   margin: 0;
 }
 
-#image-form .formInput {
+.formInput {
   width: 100% !important;
 }
 #image-form .submitButton {

@@ -1,17 +1,5 @@
 import React from 'react';
 import { Grid, Typography, Container } from '@mui/material';
-import ReactJs from './SkillsRatings/ReactJs.js';
-import Javascript from './SkillsRatings/Javascript.js';
-import Express from './SkillsRatings/Express.js';
-import MongoDb from './SkillsRatings/MongoDb.js';
-import Html5 from './SkillsRatings/Html5.js';
-import Css3 from './SkillsRatings/Css3.js';
-import Nodejs from './SkillsRatings/Nodejs.js';
-import RestApi from './SkillsRatings/RestApi.js';
-import Axios from './SkillsRatings/Axios.js';
-import Mongoose from './SkillsRatings/Mongoose.js';
-import Chart from './SkillsRatings/Chart.js';
-import Git from './SkillsRatings/Git.js';
 import Divider from '@mui/material/Divider';
 import Button from '@mui/material/Button';
 import JavascriptIcon from '@mui/icons-material/Javascript';
@@ -79,28 +67,93 @@ export default function AboutMe() {
             </Button>
           </Grid>
           <Grid className="gridItem" item mx="auto" md={5}>
-            <Grid
-              container
-              columnSpacing={{ xs: 6, sm: 6, md: 2, lg: 2 }}
-              className="skillRatings"
-            >
-              <Grid className="gridItem" item xs={6}>
-                <Javascript />
-                <Express />
-                <ReactJs />
-                <MongoDb />
-                <Mongoose />
-                <Git />
-              </Grid>
-              <Grid className="gridItem" item xs={6}>
-                <Html5 />
-                <Css3 />
-                <Nodejs />
-                <RestApi />
-                <Axios />
-                <Chart />
-              </Grid>
-            </Grid>
+            <div className="skillsImageGrid">
+              <div className="Javascript">
+                {' '}
+                <img
+                  className="skillsLogo"
+                  src="/media/skillsLogos/javascript.svg"
+                  alt=""
+                />
+              </div>
+              <div className="React">
+                <img
+                  className="skillsLogo"
+                  src="/media/skillsLogos/react-colored.svg"
+                  alt=""
+                />
+              </div>
+              <div className="MongoDb">
+                <img
+                  className="skillsLogo"
+                  src="/media/skillsLogos/mongodb-colored.svg"
+                  alt=""
+                />
+              </div>
+              <div className="Sass">
+                <img
+                  className="skillsLogo"
+                  src="/media/skillsLogos/sass-colored.svg"
+                  alt=""
+                />
+              </div>
+              <div className="Vite">
+                <img
+                  className="skillsLogo"
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/vite-colored.svg"
+                  alt="Vite"
+                />
+              </div>
+              <div className="Material">
+                <img
+                  className="skillsLogo"
+                  src="/media/skillsLogos/materialui-colored.svg"
+                  alt=""
+                />
+              </div>
+              <div className="Heroku">
+                <img
+                  className="skillsLogo"
+                  src="/media/skillsLogos/heroku-colored.svg"
+                  alt=""
+                />
+              </div>
+              <div className="Bootstrap">
+                <img
+                  className="skillsLogo"
+                  src="/media/skillsLogos/bootstrap-colored.svg"
+                  alt=""
+                />
+              </div>
+              <div className="Redux">
+                <img
+                  className="skillsLogo"
+                  src="/media/skillsLogos/redux-colored.svg"
+                  alt=""
+                />
+              </div>
+              <div className="Python">
+                <img
+                  className="skillsLogo"
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg"
+                  alt="Python"
+                />
+              </div>
+              <div className="MySQL">
+                <img
+                  className="skillsLogo"
+                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg"
+                  alt="MySQL"
+                />
+              </div>
+              <div className="Express">
+                <img
+                  className="skillsLogo"
+                  src="/media/skillsLogos/html5-colored.svg"
+                  alt=""
+                />
+              </div>
+            </div>
           </Grid>
         </Grid>
       </Container>

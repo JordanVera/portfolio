@@ -6,8 +6,8 @@ export default function Footer() {
   return (
     <div id="footer">
       <Typography variant="body2" align="center">
-        Copyright <CopyrightIcon sx={{ fontSize: '0.875rem' }} /> 2022 Jordan
-        Vera Web Development
+        Copyright <CopyrightIcon sx={{ fontSize: '0.875rem' }} />{' '}
+        {new Date().getFullYear()} Jordan Vera Web Development
       </Typography>
     </div>
   );

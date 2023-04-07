@@ -1,5 +1,12 @@
 import React from 'react';
-import { Grid, Button } from '@mui/material';
+import {
+  TextField,
+  FormControl,
+  Box,
+  Button,
+  Container,
+  Grid,
+} from '@mui/material';
 import { useForm } from 'react-hook-form';
 import { toast } from 'react-toastify';
 
@@ -93,13 +100,17 @@ export default function ContactForm() {
           }}
         >
           <label> First name </label>{' '}
-          <input
-            type="text"
-            {...register('firstName', {
-              required: true,
-              maxLength: 80,
-            })}
-          />{' '}
+          <FormControl sx={{ my: 2 }} required className="formInput">
+            <TextField
+              className="input"
+              variant="outlined"
+              size="small"
+              {...register('firstName', {
+                required: true,
+                maxLength: 80,
+              })}
+            />
+          </FormControl>
         </Grid>{' '}
         <Grid
           item
@@ -109,34 +120,43 @@ export default function ContactForm() {
             paddingBottom: '10px !important',
           }}
         >
-          <label> Last name </label>{' '}
-          <input
-            type="text"
-            {...register('lastName', {
-              required: true,
-              maxLength: 100,
-            })}
-          />{' '}
+          <label> Last name </label>
+          <FormControl sx={{ my: 2 }} required className="formInput">
+            <TextField
+              className="input"
+              variant="outlined"
+              size="small"
+              {...register('lastName', {
+                required: true,
+                maxLength: 100,
+              })}
+            />
+          </FormControl>
         </Grid>{' '}
       </Grid>{' '}
       <label> Email </label>{' '}
-      <input
-        type="text"
-        {...register('email', {
-          required: true,
-          maxLength: 100,
-        })}
-      />{' '}
+      <FormControl sx={{ my: 2 }} required className="formInput">
+        <TextField
+          className="input"
+          variant="outlined"
+          size="small"
+          {...register('email', {
+            required: true,
+            maxLength: 100,
+          })}
+        />
+      </FormControl>
       <label> Message </label>{' '}
-      <textarea
-        rows="4"
-        style={{
-          width: '100%',
-        }}
+      <TextField
+        className="formInput"
+        id="outlined-multiline-static"
+        multiline
+        rows={4}
+        defaultValue="Default Value"
         {...register('msg', {
           required: true,
         })}
-      ></textarea>{' '}
+      />
       <Button
         className="submitButton"
         variant="contained"
