@@ -62,7 +62,7 @@ export default function ContactMe() {
                     style={{
                       marginLeft: 8,
                     }}
-                    href={'github.com/JordanVera'}
+                    href="https://github.com/JordanVera"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -83,7 +83,7 @@ export default function ContactMe() {
                     style={{
                       marginLeft: 8,
                     }}
-                    href="linkedin.com/in/jordan-vera-836701161"
+                    href="https://linkedin.com/in/jordan-vera-836701161"
                     target="_blank"
                   >
                     linkedin.com/JordanVera{' '}
