@@ -25,11 +25,14 @@ app.use(cors());
 
 app.use('/openai', require('./server/index'));
 
-app.use(express.static(path.join(__dirname, 'build')));
-
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'build', 'index.html'));
-});
+if (process.env.NODE_ENV === 'production') {
+  app.use(express.static('./build'));
+  app.get('*', (req, res) => {
+    res.sendFile(
+      path.join(path.resolve(path.dirname('')), '/build/index.html')
+    );
+  });
+}
 
 app.listen(port, () => {
   console.log(chalk.bgBlueBright.black(`App listening on port ${port}`));
