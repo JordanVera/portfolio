@@ -8,6 +8,7 @@ import { ToastContainer } from 'react-toastify';
 import MovieDice from '../Components/MovieDice/Dice';
 import AboutMe from '../Components/AboutMe.jsx';
 import ContactMe from '../Components/Contact/ContactMe.jsx';
+import ResumeFull from '../Components/ResumeFull/Resume.jsx';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Projects />
       <OpenAiForm />
       <AboutMe />
+      <ResumeFull />
       <ContactMe />
       <MovieDice />
       <ToastContainer

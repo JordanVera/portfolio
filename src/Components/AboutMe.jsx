@@ -1,5 +1,6 @@
 import React from 'react';
-import { Grid, Typography, Container } from '@mui/material';
+import { Grid, Typography, Container, Box } from '@mui/material';
+
 import Divider from '@mui/material/Divider';
 import Button from '@mui/material/Button';
 import JavascriptIcon from '@mui/icons-material/Javascript';
@@ -17,10 +18,16 @@ export default function AboutMe() {
   };
 
   return (
-    <div id="aboutMe">
+    <div id="aboutMe" className="white">
       <Container>
         <Grid container>
-          <Grid className="gridItem bgGrey" item md={7} sx={{ py: 2, px: 2 }}>
+          <Grid
+            className="bgGrey"
+            item
+            md={7}
+            sx={{ py: 2, px: 2 }}
+            style={{ marginBottom: 0 }}
+          >
             <Typography variant="h4">About Me</Typography>
             <Divider sx={{ my: 1 }} />
             <p>
@@ -66,94 +73,15 @@ export default function AboutMe() {
               Random Javascript Fact
             </Button>
           </Grid>
-          <Grid className="gridItem" item mx="auto" md={5}>
-            <div className="skillsImageGrid">
-              <div className="Javascript">
-                {' '}
-                <img
-                  className="skillsLogo"
-                  src="/media/skillsLogos/javascript.svg"
-                  alt=""
-                />
-              </div>
-              <div className="React">
-                <img
-                  className="skillsLogo"
-                  src="/media/skillsLogos/react-colored.svg"
-                  alt=""
-                />
-              </div>
-              <div className="MongoDb">
-                <img
-                  className="skillsLogo"
-                  src="/media/skillsLogos/mongodb-colored.svg"
-                  alt=""
-                />
-              </div>
-              <div className="Sass">
-                <img
-                  className="skillsLogo"
-                  src="/media/skillsLogos/sass-colored.svg"
-                  alt=""
-                />
-              </div>
-              <div className="Vite">
-                <img
-                  className="skillsLogo"
-                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/vite-colored.svg"
-                  alt="Vite"
-                />
-              </div>
-              <div className="Material">
-                <img
-                  className="skillsLogo"
-                  src="/media/skillsLogos/materialui-colored.svg"
-                  alt=""
-                />
-              </div>
-              <div className="Heroku">
-                <img
-                  className="skillsLogo"
-                  src="/media/skillsLogos/heroku-colored.svg"
-                  alt=""
-                />
-              </div>
-              <div className="Bootstrap">
-                <img
-                  className="skillsLogo"
-                  src="/media/skillsLogos/bootstrap-colored.svg"
-                  alt=""
-                />
-              </div>
-              <div className="Redux">
-                <img
-                  className="skillsLogo"
-                  src="/media/skillsLogos/redux-colored.svg"
-                  alt=""
-                />
-              </div>
-              <div className="Python">
-                <img
-                  className="skillsLogo"
-                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg"
-                  alt="Python"
-                />
-              </div>
-              <div className="MySQL">
-                <img
-                  className="skillsLogo"
-                  src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mysql-colored.svg"
-                  alt="MySQL"
-                />
-              </div>
-              <div className="Express">
-                <img
-                  className="skillsLogo"
-                  src="/media/skillsLogos/html5-colored.svg"
-                  alt=""
-                />
-              </div>
-            </div>
+          <Grid item md={5}>
+            <Box
+              className="headshot"
+              style={{
+                height: '100%',
+              }}
+            >
+              <p>hellow darkness my closse friend.....</p>
+            </Box>
           </Grid>
         </Grid>
       </Container>

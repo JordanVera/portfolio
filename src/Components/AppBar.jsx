@@ -17,8 +17,6 @@ import Modal from './Contact/Modal';
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
-  const [open, setOpen] = React.useState(false);
-  const handleOpen = () => setOpen(true);
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);

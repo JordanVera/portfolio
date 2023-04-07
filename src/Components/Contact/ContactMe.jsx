@@ -12,7 +12,7 @@ export default function ContactMe() {
       <Container>
         <Grid container>
           <Grid
-            className="gridItem bgGrey"
+            className="bgGrey"
             item
             sx={{
               py: 2,
@@ -85,6 +85,7 @@ export default function ContactMe() {
                     }}
                     href="https://linkedin.com/in/jordan-vera-836701161"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     linkedin.com/JordanVera{' '}
                   </a>
