@@ -81,14 +81,14 @@ const ResponsiveAppBar = () => {
                 display: { xs: 'block', md: 'none' },
               }}
             >
-              <MenuItem key="2" onClick={handleCloseNavMenu}>
+              <MenuItem key="1" onClick={handleCloseNavMenu}>
                 <Typography textAlign="center">
                   <a className="navLink" href="#projects">
                     Projects
                   </a>
                 </Typography>
               </MenuItem>
-              <MenuItem key="1" onClick={handleCloseNavMenu}>
+              <MenuItem key="2" onClick={handleCloseNavMenu}>
                 <Typography textAlign="center">
                   <a className="navLink" href="#aboutMe">
                     About Me
@@ -97,12 +97,19 @@ const ResponsiveAppBar = () => {
               </MenuItem>
               <MenuItem key="3" onClick={handleCloseNavMenu}>
                 <Typography textAlign="center">
+                  <a className="navLink" href="#resumeFull">
+                    Resume
+                  </a>
+                </Typography>
+              </MenuItem>
+              <MenuItem key="4" onClick={handleCloseNavMenu}>
+                <Typography textAlign="center">
                   <a className="navLink" href="#contactMe">
                     Contact
                   </a>
                 </Typography>
               </MenuItem>
-              <MenuItem key="4" onClick={handleCloseNavMenu}>
+              <MenuItem key="5" onClick={handleCloseNavMenu}>
                 <Typography textAlign="center">
                   <a className="navLink" href="#movieDice">
                     Movie Dice
@@ -118,14 +125,14 @@ const ResponsiveAppBar = () => {
             sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
           ></Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            <MenuItem key="2" onClick={handleCloseNavMenu}>
+            <MenuItem key="1" onClick={handleCloseNavMenu}>
               <Typography textAlign="center">
                 <a className="navLink" href="#projects">
                   Projects
                 </a>
               </Typography>
             </MenuItem>
-            <MenuItem key="1" onClick={handleCloseNavMenu}>
+            <MenuItem key="2" onClick={handleCloseNavMenu}>
               <Typography textAlign="center">
                 <a className="navLink" href="#aboutMe">
                   About Me
@@ -134,12 +141,19 @@ const ResponsiveAppBar = () => {
             </MenuItem>
             <MenuItem key="3" onClick={handleCloseNavMenu}>
               <Typography textAlign="center">
+                <a className="navLink" href="#resumeFull">
+                  Resume
+                </a>
+              </Typography>
+            </MenuItem>
+            <MenuItem key="4" onClick={handleCloseNavMenu}>
+              <Typography textAlign="center">
                 <a className="navLink" href="#contactMe">
                   Contact
                 </a>
               </Typography>
             </MenuItem>
-            <MenuItem key="4" onClick={handleCloseNavMenu}>
+            <MenuItem key="5" onClick={handleCloseNavMenu}>
               <Typography textAlign="center">
                 <a className="navLink" href="#movieDice">
                   Movie Dice

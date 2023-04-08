@@ -14,11 +14,11 @@ export default function Resume() {
             <h2 className="resumeHeader">Download a copy of my resume</h2>
           </Grid>
           <Grid item md={4} xs={12}>
-            <Link href="/media/webDevResume.pdf" download="jordanVeraResume">
+            <a href="#resumeFull">
               <Button color="secondary" variant="contained">
                 My Resume
               </Button>
-            </Link>
+            </a>
           </Grid>
         </Grid>
       </Container>

@@ -1,6 +1,7 @@
 import React from 'react';
-import { Grid, Typography, Container, Box } from '@mui/material';
+import { Grid, Typography, Container, Box, Button, Link } from '@mui/material';
 import Divider from '@mui/material/Divider';
+import FileOpenIcon from '@mui/icons-material/FileOpen';
 
 const ResumeFull = () => {
   return (
@@ -14,7 +15,7 @@ const ResumeFull = () => {
               <Box className="frontendTech">
                 <p className="white">
                   These are, but not limited to, the tech I use for building
-                  client-side application
+                  client-side applications
                 </p>
                 <div className="responsiveResumeGrid">
                   <a
@@ -275,6 +276,17 @@ const ResumeFull = () => {
               </Box>
             </Box>
           </Grid>
+
+          <Link href="/media/webDevResume.pdf" download="jordanVeraResume">
+            <Button
+              id="randomJsFactButton"
+              startIcon={<FileOpenIcon />}
+              color="secondary"
+              variant="contained"
+            >
+              Download a Copy of my resume
+            </Button>
+          </Link>
         </main>
       </Container>
     </>

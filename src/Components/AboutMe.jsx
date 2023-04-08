@@ -79,9 +79,7 @@ export default function AboutMe() {
               style={{
                 height: '100%',
               }}
-            >
-              <p>hellow darkness my closse friend.....</p>
-            </Box>
+            ></Box>
           </Grid>
         </Grid>
       </Container>

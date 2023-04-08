@@ -30,9 +30,8 @@ p {
 #aboutMe a,
 #movieDice a,
 #resume button,
+#resumeFull button,
 .resumeHeader,
-#openAiForm .submitButton,
-#contactMe .submitButton,
 .MuiMenuItem-root:hover  {
   color: #fff;
   text-shadow: 0 0 1px hsla(0,0%,100%,.667),0 0 2px var(--orange),0 0 4px var(--orange),0 0 6px var(--orange);
@@ -212,7 +211,7 @@ h6 {
 }
 
 #resumeFull {
-  padding: 16px 16px  2px 16px;
+  padding: 16px;
 }
 
 #image-form {
