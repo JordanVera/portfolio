@@ -22,7 +22,7 @@ export default function AboutMe() {
       <Container>
         <Grid container>
           <Grid
-            className="bgGrey"
+            className="bgGrey description"
             item
             md={7}
             sx={{ py: 2, px: 2 }}
@@ -45,13 +45,11 @@ export default function AboutMe() {
                 UT Austin Coding Bootcamp
               </a>{' '}
               in 2018, and since then have been honing my skills as a full-stack
-              web developer. I love building web applications, and lately I have
-              been diving into data visualization and MERN development.
-            </p>
-            <p>
-              I am familiar with many technologys from node.js, react, express,
-              mongoDB, mongoose, axios, node.js, lodash, socket, chart.js,
-              redux, scss, html5, git, and much more.
+              web developer. Lately I have been diving into data visualization,
+              MERN development, and have even been dabbling in machine learning
+              with the use of tensorflow.js. Building web applications is my
+              passion and I would love nothing more than to become part of an
+              exciting and thriving developer team.
             </p>
             <p>
               Please see my PGA Alpha and NFL last Longer sites in the{' '}
@@ -74,12 +72,9 @@ export default function AboutMe() {
             </Button>
           </Grid>
           <Grid item md={5}>
-            <Box
-              className="headshot"
-              style={{
-                height: '100%',
-              }}
-            ></Box>
+            <Box className="headshot">
+              <p>Hellow</p>
+            </Box>
           </Grid>
         </Grid>
       </Container>

@@ -12,7 +12,7 @@ export default function ContactMe() {
       <Container>
         <Grid container>
           <Grid
-            className="bgGrey"
+            className="bgGrey contact"
             item
             sx={{
               py: 2,

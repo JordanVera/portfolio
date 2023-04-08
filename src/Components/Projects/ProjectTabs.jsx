@@ -52,7 +52,7 @@ export default function ProjectTabs() {
 
   return (
     <Box
-    className='bgGrey'
+    className='bgGrey projectsBox'
     sx={{
       flexGrow: 1,
         display: 'flex',

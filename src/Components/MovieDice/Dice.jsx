@@ -24,7 +24,7 @@ export default function MovieDice() {
           item
           alignItems="center"
           justify="center"
-          className="bgGrey"
+          className="bgGrey dice"
           sx={{
             py: 2,
             px: 2,
