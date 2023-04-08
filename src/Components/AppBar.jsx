@@ -109,13 +109,6 @@ const ResponsiveAppBar = () => {
                   </a>
                 </Typography>
               </MenuItem>
-              <MenuItem key="5" onClick={handleCloseNavMenu}>
-                <Typography textAlign="center">
-                  <a className="navLink" href="#movieDice">
-                    Movie Dice
-                  </a>
-                </Typography>
-              </MenuItem>
             </Menu>
           </Box>
           <Typography
@@ -150,13 +143,6 @@ const ResponsiveAppBar = () => {
               <Typography textAlign="center">
                 <a className="navLink" href="#contactMe">
                   Contact
-                </a>
-              </Typography>
-            </MenuItem>
-            <MenuItem key="5" onClick={handleCloseNavMenu}>
-              <Typography textAlign="center">
-                <a className="navLink" href="#movieDice">
-                  Movie Dice
                 </a>
               </Typography>
             </MenuItem>
