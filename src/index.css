@@ -368,7 +368,7 @@ h6 {
 
   #aboutMe .headshot {
     min-height: 200px;
-    max-height: 100%;
+    max-height: 700px;
     height: 100%;
     padding: 12px !important;
     margin: 0 0 0 12px;
@@ -582,10 +582,6 @@ input[type="button"]:hover {
     .contactModal {
       width: 90vw;
     }
-
-    .headshot {
-      height: 400px !important;
-    }
   }  
 
   @media only screen and (max-width: 780px) {
@@ -600,6 +596,18 @@ input[type="button"]:hover {
     .image2 {
       display: block;
     }
+  }
+
+
+  @media only screen and (max-width: 900px) {
+
+    #aboutMe .headshot {
+      margin-top: 12px !important;
+      min-width: 230px;
+      max-width: 700px;
+      width: 100%;
+      margin: auto;
+     }
 
   }  
 

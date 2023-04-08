@@ -72,9 +72,7 @@ export default function AboutMe() {
             </Button>
           </Grid>
           <Grid item md={5}>
-            <Box className="headshot">
-              <p>Hellow</p>
-            </Box>
+            <Box className="headshot"></Box>
           </Grid>
         </Grid>
       </Container>
