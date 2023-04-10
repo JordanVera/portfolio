@@ -272,6 +272,30 @@ const ResumeFull = () => {
                       alt="postman"
                     />
                   </a>
+                  <a
+                    href="https://www.adobe.com/products/photoshop.html"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {' '}
+                    <img
+                      className="resumeSkillsLogo"
+                      src="/media/photoshop.png"
+                      alt="postman"
+                    />
+                  </a>
+                  <a
+                    href="https://www.adobe.com/products/illustrator.html"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {' '}
+                    <img
+                      className="resumeSkillsLogo"
+                      src="/media/illustrator.png"
+                      alt="postman"
+                    />
+                  </a>
                 </div>
               </Box>
             </Box>

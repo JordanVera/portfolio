@@ -1,4 +1,4 @@
-@import "https://fonts.googleapis.com/css2?family=Lato&family=Lora&display=swap";
+@import 'https://fonts.googleapis.com/css2?family=Lato&family=Lora&display=swap';
 :root {
   --grey: #191919;
   --black: #000;
@@ -12,58 +12,73 @@ html {
   scroll-behavior: smooth;
   -webkit-scroll-behavior: smooth;
   -moz-osx-scroll-behavior: smooth;
- }
+}
 
 body {
   margin: 0;
-  font-family: "Lato", sans-serif;
-  background-color: #0E0E0D;
+  font-family: 'Lato', sans-serif;
+  background-color: #0e0e0d;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale;
+}
 
 code {
-  font-family: "Lato", sans-serif; }
+  font-family: 'Lato', sans-serif;
+}
 
 p {
-  margin-top: 0; }
+  margin-top: 0;
+}
 
 #aboutMe a,
 #movieDice a,
 .resumeHeader,
-.MuiMenuItem-root:hover  {
+.MuiMenuItem-root:hover {
   color: #fff;
-  text-shadow: 0 0 1px hsla(0,0%,100%,.667),0 0 2px var(--orange),0 0 4px var(--orange),0 0 6px var(--orange);
+  text-shadow: 0 0 1px hsla(0, 0%, 100%, 0.667), 0 0 2px var(--orange),
+    0 0 4px var(--orange), 0 0 6px var(--orange);
 }
 
 h1 {
-  font-family: "Lora", serif;
+  font-family: 'Lora', serif;
   font-weight: 100;
   color: white;
   text-align: center;
-  padding-bottom: 10px; }
-
+  padding-bottom: 10px;
+}
 
 h2 {
-  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
 }
 
 h3 {
-  font-family: "Roboto","Helvetica","Arial",sans-serif;
- }
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
 
 h4 {
-  font-family:"Roboto","Helvetica","Arial",sans-serif }
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
 
 h5 {
-  font-family: "Roboto","Helvetica","Arial",sans-serif }
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
 
 h6 {
-  font-family: "Roboto","Helvetica","Arial",sans-serif }
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
 
-.green {color: #fff;
-  text-shadow: 0 0 1px hsla(0,0%,100%,.667),0 0 2px var(--pink),0 0 4px var(--pink),0 0 6px var(--pink);} 
-.whiteFill{fill: var(--white); padding: 8px}
-.purple {color: var(--purple) !important } 
+.green {
+  color: #fff;
+  text-shadow: 0 0 1px hsla(0, 0%, 100%, 0.667), 0 0 2px var(--pink),
+    0 0 4px var(--pink), 0 0 6px var(--pink);
+}
+.whiteFill {
+  fill: var(--white);
+  padding: 8px;
+}
+.purple {
+  color: var(--purple) !important;
+}
 .white {
   color: var(--white);
 }
@@ -85,33 +100,37 @@ h6 {
 .socialMediaLink {
   padding: 2px;
   color: var(--white);
-  margin: 0 4px; }
+  margin: 0 4px;
+}
 
-  .tabLinks {
-    padding: 2px;
-    color: #fff;
-    text-shadow: 0 0 1px hsla(0,0%,100%,.667),0 0 2px var(--pink),0 0 4px var(--pink),0 0 6px var(--pink);
-    margin: 0 4px; 
-    text-decoration: none;
-     }
+.tabLinks {
+  padding: 2px;
+  color: #fff;
+  text-shadow: 0 0 1px hsla(0, 0%, 100%, 0.667), 0 0 2px var(--pink),
+    0 0 4px var(--pink), 0 0 6px var(--pink);
+  margin: 0 4px;
+  text-decoration: none;
+}
 
-     .MuiTabs-indicator {
-      background-color: #fff !important;
-     }
+.MuiTabs-indicator {
+  background-color: #fff !important;
+}
 
-     .MuiTabs-root  {
-      overflow: visible !important;
-     }
+.MuiTabs-root {
+  overflow: visible !important;
+}
 
 .title h1 {
   color: #fff !important;
-  text-shadow: 0 0 1px hsla(0,0%,100%,.667),0 0 2px var(--pink),0 0 4px var(--pink),0 0 6px var(--pink);
+  text-shadow: 0 0 1px hsla(0, 0%, 100%, 0.667), 0 0 2px var(--pink),
+    0 0 4px var(--pink), 0 0 6px var(--pink);
 }
 
-.role p { 
+.role p {
   color: #fff !important;
   font-size: 16px !important;
-  text-shadow: 0 0 1px hsla(0,0%,100%,.667),0 0 2px var(--orange),0 0 4px var(--orange),0 0 6px var(--orange);
+  text-shadow: 0 0 1px hsla(0, 0%, 100%, 0.667), 0 0 2px var(--orange),
+    0 0 4px var(--orange), 0 0 6px var(--orange);
 }
 
 .logoBanner {
@@ -140,13 +159,13 @@ h6 {
 
 .resumeSkillsLogo:hover {
   transform: scale(1.3);
-  transition: .5s;
+  transition: 0.5s;
   -webkit-filter: none;
   filter: none;
 }
 
-.React img:hover, 
-.Material img:hover, 
+.React img:hover,
+.Material img:hover,
 .Python img:hover,
 .MySQL img:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
@@ -161,40 +180,64 @@ h6 {
 .Express img:hover {
   filter: drop-shadow(0 0 2em red);
 }
-.Vite img:hover, 
-.Heroku img:hover, 
-.Bootstrap img:hover, 
+.Vite img:hover,
+.Heroku img:hover,
+.Bootstrap img:hover,
 .Redux img:hover {
-  filter: drop-shadow(0 0 2em #646cffaa)
+  filter: drop-shadow(0 0 2em #646cffaa);
 }
 
 .MongoDb img:hover {
-  filter: drop-shadow(0 0 2em green)
+  filter: drop-shadow(0 0 2em green);
 }
 
-.Javascript { grid-area: Javascript; }
+.Javascript {
+  grid-area: Javascript;
+}
 
-.React { grid-area: React; }
+.React {
+  grid-area: React;
+}
 
-.MongoDb { grid-area: MongoDb; }
+.MongoDb {
+  grid-area: MongoDb;
+}
 
-.Sass { grid-area: Sass; }
+.Sass {
+  grid-area: Sass;
+}
 
-.Vite { grid-area: Vite; }
+.Vite {
+  grid-area: Vite;
+}
 
-.Material { grid-area: Material; }
+.Material {
+  grid-area: Material;
+}
 
-.Heroku { grid-area: Heroku; }
+.Heroku {
+  grid-area: Heroku;
+}
 
-.Bootstrap { grid-area: Bootstrap; }
+.Bootstrap {
+  grid-area: Bootstrap;
+}
 
-.Redux { grid-area: Redux; }
+.Redux {
+  grid-area: Redux;
+}
 
-.Python { grid-area: Python; }
+.Python {
+  grid-area: Python;
+}
 
-.MySQL { grid-area: MySQL; }
+.MySQL {
+  grid-area: MySQL;
+}
 
-.Express { grid-area: Express; }
+.Express {
+  grid-area: Express;
+}
 
 .frontendTech,
 .backendTech,
@@ -207,15 +250,16 @@ h6 {
 
 .responsiveResumeGrid {
   display: grid;
-  grid-template-columns: repeat( auto-fill, minmax(100px, 1fr) );
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
 }
 
-
-#openAiForm, #contactMe, #resumeFull {
+#openAiForm,
+#contactMe,
+#resumeFull {
   margin: 48px 0;
 }
 
-#openAiForm{
+#openAiForm {
   padding: 16px;
 }
 
@@ -248,23 +292,28 @@ h6 {
   top: 0;
   left: 0;
   background: #191919 !important;
-  box-shadow: none !important; }
-  #appBar .navLink {
-    color: var(--white);
-    text-decoration: none; }
-  #appBar .appBarLogo {
-    height: 60px; }
-    #appBar .digitalClock {
-      margin-right: 8px !important;
-    }
+  box-shadow: none !important;
+}
+#appBar .navLink {
+  color: var(--white);
+  text-decoration: none;
+}
+#appBar .appBarLogo {
+  height: 60px;
+}
+#appBar .digitalClock {
+  margin-right: 8px !important;
+}
 
-    .navLink {
-      color: var(--white);
-      text-decoration: none; }
+.navLink {
+  color: var(--white);
+  text-decoration: none;
+}
 
 .MuiMenu-list {
   color: var(--white);
-  background-color: var(--pink); }
+  background-color: var(--pink);
+}
 
 .dice {
   margin-bottom: 24px !important;
@@ -273,7 +322,7 @@ h6 {
 
 .skillRatings {
   text-align: center;
-  color: var(--white)
+  color: var(--white);
 }
 
 #jumbotronAnimation {
@@ -286,123 +335,139 @@ h6 {
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+}
 
-  .jumbotronImage {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-  }
-  .imageContainer:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background:  #000;
-    opacity: 0.4;
-  }
+.jumbotronImage {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+.imageContainer:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.4;
+}
 
 .imageContainer .after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: none;
-    color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  color: #000;
 }
 
 #resume {
   background: var(--grey);
 }
-  #resume button {
-    width: 100%;
-    margin: 14px 0;
-    height: 36px; }
+#resume button {
+  width: 100%;
+  margin: 14px 0;
+  height: 36px;
+}
 
-    #randomJsFactButton { 
-      width: 100%;
-    }
+#randomJsFactButton {
+  width: 100%;
+}
 
 .submitButton {
   margin-top: 12px !important;
-  width: 100%; }
+  width: 100%;
+}
 
 #projects {
   color: var(--white);
-  margin-top: 48px; 
-  margin-bottom: 48px; 
+  margin-top: 48px;
+  margin-bottom: 48px;
 }
-  #projects .MuiCard-root {
-    margin: auto; }
-  #projects h4 {
-    margin: 24px 0;
-    text-align: center;
-    color: var(--white); }
+#projects .MuiCard-root {
+  margin: auto;
+}
+#projects h4 {
+  margin: 24px 0;
+  text-align: center;
+  color: var(--white);
+}
 
-    #projects .Mui-selected {
-      color: #fff;
-      text-shadow: 0 0 1px hsla(0,0%,100%,.667),0 0 2px var(--pink),0 0 4px var(--pink),0 0 6px var(--pink);
-    }
+#projects .Mui-selected {
+  color: #fff;
+  text-shadow: 0 0 1px hsla(0, 0%, 100%, 0.667), 0 0 2px var(--pink),
+    0 0 4px var(--pink), 0 0 6px var(--pink);
+}
 
 .projectPills .MuiChip-label {
   color: var(--white);
 }
 
 .MuiChip-root svg {
-  fill: var(--white)
+  fill: var(--white);
 }
 
-#movieDice h4{
+#movieDice h4 {
   margin: 24px 0;
   text-align: center;
-  color: var(--white); }
-
-  .subtitle {
-    text-align: center;
   color: var(--white);
-  }
+}
 
-  #aboutMe .headshot {
-    min-height: 200px;
-    max-height: 700px;
-    height: 100%;
-    padding: 12px !important;
-    margin: 0 0 0 12px;
-    background: url('../public/media/selfie.jpg') no-repeat center center ;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
+.subtitle {
+  text-align: center;
+  color: var(--white);
+}
 
-#aboutMe h4, #contactMe h4, #movieDice h4, #openAiForm h4, #resumeFull h4 {
+#aboutMe .headshot {
+  min-height: 200px;
+  max-height: 700px;
+  height: 100%;
+  padding: 12px !important;
+  margin: 0 0 0 12px;
+  background: url('../public/media/selfie.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#aboutMe h4,
+#contactMe h4,
+#movieDice h4,
+#openAiForm h4,
+#resumeFull h4 {
   margin: 0 0 16px 0;
   font-size: 24px;
   color: #fff;
-  text-shadow: 0 0 1px hsla(0,0%,100%,.667),0 0 2px var(--pink),0 0 4px var(--pink),0 0 6px var(--pink);
+  text-shadow: 0 0 1px hsla(0, 0%, 100%, 0.667), 0 0 2px var(--pink),
+    0 0 4px var(--pink), 0 0 6px var(--pink);
 }
 
 #aboutMe .MuiGrid-item {
-  margin-bottom: 24px; }
+  margin-bottom: 24px;
+}
 
 #aboutMe h5 {
   color: var(--white);
   font-size: 16px;
   font-weight: 300;
-  margin: 12px 0; }
+  margin: 12px 0;
+}
 
 form {
   max-width: 500px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 .form {
   background: #0e101c;
   max-width: 400px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 input {
   display: block;
@@ -412,9 +477,11 @@ input {
   border: 1px solid white;
   padding: 10px 15px;
   margin-bottom: 10px;
-  font-size: 14px; }
-  input:disabled {
-    opacity: 0.4; }
+  font-size: 14px;
+}
+input:disabled {
+  opacity: 0.4;
+}
 
 label {
   line-height: 2;
@@ -423,10 +490,12 @@ label {
   margin-bottom: 6px;
   color: white;
   font-size: 14px;
-  font-weight: 200; }
+  font-weight: 200;
+}
 
-input[type="button"]:hover {
-  transition: 0.3s all; }
+input[type='button']:hover {
+  transition: 0.3s all;
+}
 
 .imageWrapper {
   height: 200px;
@@ -436,113 +505,117 @@ input[type="button"]:hover {
   background-size: cover;
   position: relative;
   border: var(--white) solid 2px;
-  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4); }
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+}
 
 .ratingLabel {
-  color: var(--white); }
+  color: var(--white);
+}
 
 #footer {
   padding: 36px 12px;
   background: var(--black);
-  color: var(--white); }
+  color: var(--white);
+}
 
-  #notfound {
-    position: relative;
-    height: 100vh;
-    background: #030005;
-  }
-  
-  #notfound .notfound {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-  }
-  
-  .notfound {
-    max-width: 767px;
-    width: 100%;
-    line-height: 1.4;
-    text-align: center;
-  }
-  
-  .notfound .notfound-404 {
-    position: relative;
-    height: 180px;
-    margin-bottom: 20px;
-    z-index: -1;
-  }
+#notfound {
+  position: relative;
+  height: 100vh;
+  background: #030005;
+}
 
-  .movieRating {
-    margin-bottom: 20px;
-  }
-  
-  .notfound .notfound-404 h1 {
-    font-family: 'Montserrat', sans-serif;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50% , -50%);
-        -ms-transform: translate(-50% , -50%);
-            transform: translate(-50% , -50%);
-    font-size: 224px;
-    font-weight: 900;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: -12px;
-    color: #030005;
-    text-transform: uppercase;
-    text-shadow: -1px -1px 0px #8400ff, 1px 1px 0px #ff005a;
-    letter-spacing: -20px;
-  }
-  
-  
-  .notfound .notfound-404 h2 {
-    font-family: 'Montserrat', sans-serif;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 110px;
-    font-size: 42px;
-    font-weight: 700;
-    color: #fff;
-    text-transform: uppercase;
-    text-shadow: 0px 2px 0px #8400ff;
-    letter-spacing: 13px;
-    margin: 0;
-  }
-  
-  .notfound a {
-    font-family: 'Montserrat', sans-serif;
-    display: inline-block;
-    text-transform: uppercase;
-    color: #ff005a;
-    text-decoration: none;
-    border: 2px solid;
-    background: transparent;
-    padding: 10px 40px;
-    font-size: 14px;
-    font-weight: 700;
-    -webkit-transition: 0.2s all;
-    transition: 0.2s all;
-  }
-  
-  .notfound a:hover {
-    color: #8400ff;
-  }
+#notfound .notfound {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.notfound {
+  max-width: 767px;
+  width: 100%;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.notfound .notfound-404 {
+  position: relative;
+  height: 180px;
+  margin-bottom: 20px;
+  z-index: -1;
+}
+
+.movieRating {
+  margin-bottom: 20px;
+}
+
+.notfound .notfound-404 h1 {
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 224px;
+  font-weight: 900;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: -12px;
+  color: #030005;
+  text-transform: uppercase;
+  text-shadow: -1px -1px 0px #8400ff, 1px 1px 0px #ff005a;
+  letter-spacing: -20px;
+}
+
+.notfound .notfound-404 h2 {
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 110px;
+  font-size: 42px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 0px 2px 0px #8400ff;
+  letter-spacing: 13px;
+  margin: 0;
+}
+
+.notfound a {
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #ff005a;
+  text-decoration: none;
+  border: 2px solid;
+  background: transparent;
+  padding: 10px 40px;
+  font-size: 14px;
+  font-weight: 700;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.notfound a:hover {
+  color: #8400ff;
+}
 
 .smallLink {
   font-size: 14px;
   margin-bottom: 0;
   color: #fff;
-  text-shadow: 0 0 1px hsla(0,0%,100%,.667),0 0 2px var(--orange),0 0 4px var(--orange),0 0 6px var(--orange);
+  text-shadow: 0 0 1px hsla(0, 0%, 100%, 0.667), 0 0 2px var(--orange),
+    0 0 4px var(--orange), 0 0 6px var(--orange);
 }
 
 .smallLink:hover {
   color: #fff;
-  text-shadow: 0 0 1px hsla(0,0%,100%,.667),0 0 2px var(--pink),0 0 4px var(--pink),0 0 6px var(--pink);
+  text-shadow: 0 0 1px hsla(0, 0%, 100%, 0.667), 0 0 2px var(--pink),
+    0 0 4px var(--pink), 0 0 6px var(--pink);
 }
 
 .MuiChip-label {
@@ -553,100 +626,136 @@ input[type="button"]:hover {
   width: 400px;
 }
 
-  #aboutMe p, #movieDice p, #chessGame p {  
-    line-height: 2rem;
+#aboutMe p,
+#movieDice p,
+#chessGame p {
+  line-height: 2rem;
+}
+
+.reactSpinner {
+  margin: 60px 48%;
+}
+
+@media only screen and (max-width: 600px) {
+  .notfound .notfound-404 h2 {
+    font-size: 24px;
   }
 
-  .reactSpinner {
-    margin: 60px 48%;
+  .skillsLogo {
+    height: 42px;
+    width: 42px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .notfound .notfound-404 h1 {
+    font-size: 182px;
   }
 
+  .contactModal {
+    width: 90vw;
+  }
+}
 
-  @media only screen and (max-width: 600px) {
-    .notfound .notfound-404 h2 {
-      font-size: 24px;
-    }
-
-    .skillsLogo {
-      height: 42px;
-      width: 42px;
-    }
+@media only screen and (max-width: 780px) {
+  .notfound .notfound-404 h1 {
+    font-size: 182px;
   }
 
-
-  @media only screen and (max-width: 480px) {
-    .notfound .notfound-404 h1 {
-        font-size: 182px;
-    }
-
-    .contactModal {
-      width: 90vw;
-    }
-  }  
-
-  @media only screen and (max-width: 780px) {
-    .notfound .notfound-404 h1 {
-        font-size: 182px;
-    }
-
-    .projectPills {
-      display: none;
-    }
-
-    .image2 {
-      display: block;
-    }
+  .projectPills {
+    display: none;
   }
 
+  .image2 {
+    display: block;
+  }
+}
 
-  @media only screen and (max-width: 900px) {
-
-    #aboutMe .headshot {
-      margin-top: 12px !important;
-      min-width: 230px;
-      max-width: 700px;
-      width: 100%;
-      margin: auto;
-     }
-
-  }  
-
- 
-  
+@media only screen and (max-width: 900px) {
+  #aboutMe .headshot {
+    margin-top: 12px !important;
+    min-width: 230px;
+    max-width: 700px;
+    width: 100%;
+    margin: auto;
+  }
+}
 
 /*** iPhone and iOS Form Input Zoom Fixes ***/
 /* Fix Input Zoom on devices older than iPhone 5: */
 @media screen and (device-aspect-ratio: 2 / 3) {
-  select, textarea, input[type="text"], input[type="password"],
-  input[type="datetime"], input[type="datetime-local"],
-  input[type="date"], input[type="month"], input[type="time"],
-  input[type="week"], input[type="number"], input[type="email"],
-  input[type="url"] {
-    font-size: 16px; } }
+  select,
+  textarea,
+  input[type='text'],
+  input[type='password'],
+  input[type='datetime'],
+  input[type='datetime-local'],
+  input[type='date'],
+  input[type='month'],
+  input[type='time'],
+  input[type='week'],
+  input[type='number'],
+  input[type='email'],
+  input[type='url'] {
+    font-size: 16px;
+  }
+}
 
 /* Fix Input Zoom on iPhone 5, 5C, 5S, iPod Touch 5g */
 @media screen and (device-aspect-ratio: 40 / 71) {
-  select, textarea, input[type="text"], input[type="password"],
-  input[type="datetime"], input[type="datetime-local"],
-  input[type="date"], input[type="month"], input[type="time"],
-  input[type="week"], input[type="number"], input[type="email"],
-  input[type="url"] {
-    font-size: 16px; } }
+  select,
+  textarea,
+  input[type='text'],
+  input[type='password'],
+  input[type='datetime'],
+  input[type='datetime-local'],
+  input[type='date'],
+  input[type='month'],
+  input[type='time'],
+  input[type='week'],
+  input[type='number'],
+  input[type='email'],
+  input[type='url'] {
+    font-size: 16px;
+  }
+}
 
 /* Fix Input Zoom on iPhone 6, iPhone 6s, iPhone 7  */
 @media screen and (device-aspect-ratio: 375 / 667) {
-  select, textarea, input[type="text"], input[type="password"],
-  input[type="datetime"], input[type="datetime-local"],
-  input[type="date"], input[type="month"], input[type="time"],
-  input[type="week"], input[type="number"], input[type="email"],
-  input[type="tel"], input[type="url"] {
-    font-size: 16px; } }
+  select,
+  textarea,
+  input[type='text'],
+  input[type='password'],
+  input[type='datetime'],
+  input[type='datetime-local'],
+  input[type='date'],
+  input[type='month'],
+  input[type='time'],
+  input[type='week'],
+  input[type='number'],
+  input[type='email'],
+  input[type='tel'],
+  input[type='url'] {
+    font-size: 16px;
+  }
+}
 
 /* Fix Input Zoom on iPhone 6 Plus, iPhone 6s Plus, iPhone 7 Plus, iPhone 8, iPhone X, XS, XS Max  */
 @media screen and (device-aspect-ratio: 9 / 16) {
-  select, textarea, input[type="text"], input[type="password"],
-  input[type="datetime"], input[type="datetime-local"],
-  input[type="date"], input[type="month"], input[type="time"],
-  input[type="week"], input[type="number"], input[type="email"],
-  input[type="tel"], input[type="url"] {
-    font-size: 16px; } }
+  select,
+  textarea,
+  input[type='text'],
+  input[type='password'],
+  input[type='datetime'],
+  input[type='datetime-local'],
+  input[type='date'],
+  input[type='month'],
+  input[type='time'],
+  input[type='week'],
+  input[type='number'],
+  input[type='email'],
+  input[type='tel'],
+  input[type='url'] {
+    font-size: 16px;
+  }
+}
