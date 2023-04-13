@@ -301,7 +301,10 @@ const ResumeFull = () => {
             </Box>
           </Grid>
 
-          <Link href="/media/webDevResume.pdf" download="jordanVeraResume">
+          <Link
+            href="/media/webDevResume(04.12.22).pdf"
+            download="jordanVeraResume"
+          >
             <Button
               id="randomJsFactButton"
               startIcon={<FileOpenIcon />}
