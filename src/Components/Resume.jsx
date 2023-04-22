@@ -11,7 +11,7 @@ export default function Resume() {
             md={8}
             sx={{ display: { xs: 'none', sm: 'none', md: 'block' } }}
           >
-            <h2 className="resumeHeader">Download a copy of my resume</h2>
+            <h2 className="resumeHeader green">Download a Copy of My Resume</h2>
           </Grid>
           <Grid item md={4} xs={12}>
             <a href="#resumeFull">

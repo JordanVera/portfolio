@@ -32,7 +32,6 @@ p {
 
 #aboutMe a,
 #movieDice a,
-.resumeHeader,
 .MuiMenuItem-root:hover {
   color: #fff;
   text-shadow: 0 0 1px hsla(0, 0%, 100%, 0.667), 0 0 2px var(--orange),
@@ -47,23 +46,7 @@ h1 {
   padding-bottom: 10px;
 }
 
-h2 {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-}
-
-h3 {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-}
-
-h4 {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-}
-
-h5 {
-  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
-}
-
-h6 {
+h2, h3, h4, h5, h6 {
   font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
 }
 
@@ -108,8 +91,14 @@ h6 {
   color: #fff;
   text-shadow: 0 0 1px hsla(0, 0%, 100%, 0.667), 0 0 2px var(--pink),
     0 0 4px var(--pink), 0 0 6px var(--pink);
-  margin: 0 4px;
+  margin: 0;
   text-decoration: none;
+}
+.tabLinks:hover {
+ 
+  text-shadow: 0 0 1px hsla(0, 0%, 100%, 0.667), 0 0 2px var(--orange),
+    0 0 4px var(--orange), 0 0 6px var(--orange);
+
 }
 
 .MuiTabs-indicator {
@@ -243,6 +232,7 @@ h6 {
 .backendTech,
 .otherTech {
   border: 2px solid white;
+  border-color: rgba(255, 255, 255, 0.12);
   border-radius: 15px;
   padding: 1.25rem 1rem;
   margin: 24px 0;
