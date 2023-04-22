@@ -9,6 +9,7 @@ import NflLastLongerTab from './NflLastLonger/NflLastLongerTab';
 import MassEmailerTab from './MassEmailer/MassEmailerTab';
 import GifGeneratorTab from './GifGenerator/GifGeneratorTab';
 import TriviaTab from './Trivia/TriviaTab';
+import ChatGptTab from './ChatGPT/ChatGptTab';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -52,9 +53,9 @@ export default function ProjectTabs() {
 
   return (
     <Box
-    className='bgGrey projectsBox'
-    sx={{
-      flexGrow: 1,
+      className="bgGrey projectsBox"
+      sx={{
+        flexGrow: 1,
         display: 'flex',
         height: 'auto',
         minWidth: 'auto',
@@ -76,26 +77,30 @@ export default function ProjectTabs() {
           color: '#ff005a',
         }}
       >
-        <Tab label="PGA Alpha" {...a11yProps(0)} />
-        <Tab label="NFL Last Longer" {...a11yProps(1)} />
-        <Tab label="Trivia" {...a11yProps(2)} />
-        <Tab label="Gif Generator" {...a11yProps(3)} />
-        <Tab label="Mass Emailer" {...a11yProps(4)} />
+        <Tab label="Chat GPT" {...a11yProps(0)} />
+        <Tab label="PGA Alpha" {...a11yProps(1)} />
+        <Tab label="NFL Last Longer" {...a11yProps(2)} />
+        <Tab label="Trivia" {...a11yProps(3)} />
+        <Tab label="Gif Generator" {...a11yProps(4)} />
+        <Tab label="Mass Emailer" {...a11yProps(5)} />
       </Tabs>
 
       <TabPanel value={value} index={0}>
-        <PgaAlphaTab />
+        <ChatGptTab />
       </TabPanel>
       <TabPanel value={value} index={1}>
-        <NflLastLongerTab />
+        <PgaAlphaTab />
       </TabPanel>
       <TabPanel value={value} index={2}>
-        <TriviaTab />
+        <NflLastLongerTab />
       </TabPanel>
       <TabPanel value={value} index={3}>
-        <GifGeneratorTab />
+        <TriviaTab />
       </TabPanel>
       <TabPanel value={value} index={4}>
+        <GifGeneratorTab />
+      </TabPanel>
+      <TabPanel value={value} index={5}>
         <MassEmailerTab />
       </TabPanel>
     </Box>

@@ -95,10 +95,8 @@ h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 .tabLinks:hover {
- 
   text-shadow: 0 0 1px hsla(0, 0%, 100%, 0.667), 0 0 2px var(--orange),
     0 0 4px var(--orange), 0 0 6px var(--orange);
-
 }
 
 .MuiTabs-indicator {
