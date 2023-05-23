@@ -1,11 +1,6 @@
 import React from 'react';
 import { Grid, Typography, Container, Box } from '@mui/material';
-
 import Divider from '@mui/material/Divider';
-import Button from '@mui/material/Button';
-import JavascriptIcon from '@mui/icons-material/Javascript';
-import js from '../movies/javascriptFactsObj.js';
-import { toast } from 'react-toastify';
 
 export default function AboutMe() {
   const toastSettingsObj = {
@@ -56,20 +51,6 @@ export default function AboutMe() {
               <a href="#projects">my projects</a> section of my site, they are
               my featured projects and what I spend most of my time on.
             </p>
-            <Button
-              id="randomJsFactButton"
-              startIcon={<JavascriptIcon />}
-              color="secondary"
-              variant="contained"
-              onClick={() =>
-                toast.info(
-                  `${js[Math.floor(Math.random() * js.length)].fact}`,
-                  toastSettingsObj
-                )
-              }
-            >
-              Random Javascript Fact
-            </Button>
           </Grid>
           <Grid item md={5}>
             <Box className="headshot"></Box>

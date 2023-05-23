@@ -79,8 +79,8 @@ export default function ProjectTabs() {
       >
         <Tab label="Chat GPT" {...a11yProps(0)} />
         <Tab label="PGA Alpha" {...a11yProps(1)} />
-        <Tab label="NFL Last Longer" {...a11yProps(2)} />
-        <Tab label="Trivia" {...a11yProps(3)} />
+        <Tab label="Trivia" {...a11yProps(2)} />
+        <Tab label="NFL Last Longer" {...a11yProps(3)} />
         <Tab label="Gif Generator" {...a11yProps(4)} />
         <Tab label="Mass Emailer" {...a11yProps(5)} />
       </Tabs>
@@ -92,10 +92,10 @@ export default function ProjectTabs() {
         <PgaAlphaTab />
       </TabPanel>
       <TabPanel value={value} index={2}>
-        <NflLastLongerTab />
+        <TriviaTab />
       </TabPanel>
       <TabPanel value={value} index={3}>
-        <TriviaTab />
+        <NflLastLongerTab />
       </TabPanel>
       <TabPanel value={value} index={4}>
         <GifGeneratorTab />
