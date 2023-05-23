@@ -37,8 +37,8 @@ export default function NflLastLongerTab() {
         variant="h5"
         component="div"
       >
-        <span className="green">Featured Project</span> - Project hosted on a
-        free heroku server, please give the app 20-30 seconds to load.
+        Featured Project - Project hosted on a free heroku server, please give
+        the app 20-30 seconds to load.
       </Typography>
 
       <Box sx={{ mx: 2 }}>

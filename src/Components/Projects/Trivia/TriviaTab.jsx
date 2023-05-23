@@ -35,8 +35,7 @@ export default function TriviaTab() {
         variant="h5"
         component="div"
       >
-        <span className="green">Featured Project</span> - Project hosted on
-        github pages.
+        Featured Project - Project hosted on github pages.
       </Typography>
 
       <Box sx={{ mx: 2 }}>
