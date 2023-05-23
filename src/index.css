@@ -99,6 +99,15 @@ h2, h3, h4, h5, h6 {
     0 0 4px var(--orange), 0 0 6px var(--orange);
 }
 
+.resumeHeader {
+  text-decoration: none;
+}
+.resumeHeader:hover {
+text-shadow: 0 0 1px hsla(0, 0%, 100%, 0.667), 0 0 2px var(--orange),
+  0 0 4px var(--orange), 0 0 6px var(--orange);
+  text-decoration: none;
+}
+
 .MuiTabs-indicator {
   background-color: #fff !important;
 }
@@ -140,8 +149,6 @@ h2, h3, h4, h5, h6 {
 .resumeSkillsLogo {
   height: 48px;
   width: 48px;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
 }
 
 .resumeSkillsLogo:hover {
