@@ -49,10 +49,6 @@ export default function GifGeneratorTab() {
           </a>
         </IconButton>
       </Box>
-      <Divider variant="middle" sx={{ mt: 1 }} />
-
-      <GifGeneratorList />
-
       <Stack
         className="projectPills"
         direction={{ xs: 'column', md: 'row' }}
@@ -63,6 +59,15 @@ export default function GifGeneratorTab() {
         <Javascript />
         <SCSS />
       </Stack>
+      <Divider variant="middle" sx={{ mt: 1 }} />
+
+      <GifGeneratorList />
+
+      <img
+        src="/media/projects/gifgen.jpg"
+        alt="example"
+        className="projectImg"
+      />
     </>
   );
 }

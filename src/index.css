@@ -86,12 +86,14 @@ h2, h3, h4, h5, h6 {
   margin: 0 4px;
 }
 
+#projects .MuiIconButton-root {margin-left: 0 !important;}
+
 .tabLinks {
   padding: 2px;
   color: #fff;
   text-shadow: 0 0 1px hsla(0, 0%, 100%, 0.667), 0 0 2px var(--pink),
     0 0 4px var(--pink), 0 0 6px var(--pink);
-  margin: 0;
+  margin: 0 !important;
   text-decoration: none;
 }
 .tabLinks:hover {
@@ -383,9 +385,11 @@ text-shadow: 0 0 1px hsla(0, 0%, 100%, 0.667), 0 0 2px var(--orange),
   margin-top: 48px;
   margin-bottom: 48px;
 }
+
 #projects .MuiCard-root {
   margin: auto;
 }
+
 #projects h4 {
   margin: 24px 0;
   text-align: center;
@@ -396,6 +400,19 @@ text-shadow: 0 0 1px hsla(0, 0%, 100%, 0.667), 0 0 2px var(--orange),
   color: #fff;
   text-shadow: 0 0 1px hsla(0, 0%, 100%, 0.667), 0 0 2px var(--pink),
     0 0 4px var(--pink), 0 0 6px var(--pink);
+}
+
+.projectImg {
+  max-width: 100%;
+  height: auto;
+  max-height: 300px;
+  padding: 1rem;
+  margin: 0;
+  border-radius: 12px;
+}
+
+.projectPills {
+  margin-bottom: 1rem !important;
 }
 
 .projectPills .MuiChip-label {
@@ -639,6 +656,10 @@ input[type='button']:hover {
   .skillsLogo {
     height: 42px;
     width: 42px;
+  }
+
+  .projectImg {
+    display: none;
   }
 }
 

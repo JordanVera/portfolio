@@ -63,9 +63,6 @@ export default function NflLastLongerTab() {
           </a>
         </IconButton>
       </Box>
-      <Divider variant="middle" sx={{ mt: 1 }} />
-
-      <NflLastLongerList />
 
       <Stack
         className="projectPills"
@@ -79,6 +76,15 @@ export default function NflLastLongerTab() {
         <Express />
         <Mongodb />
       </Stack>
+      <Divider variant="middle" sx={{ mt: 1 }} />
+
+      <NflLastLongerList />
+
+      <img
+        src="/media/projects/nflLastLonger.jpg"
+        alt="example"
+        className="projectImg"
+      />
     </>
   );
 }

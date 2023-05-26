@@ -63,10 +63,6 @@ export default function PgaAlphaTab() {
           </a>
         </IconButton>
       </Box>
-      <Divider variant="middle" sx={{ mt: 1 }} />
-
-      <InteractiveList />
-
       <Stack
         className="projectPills"
         spacing={2}
@@ -79,6 +75,15 @@ export default function PgaAlphaTab() {
         <ReactJs />
         <Mongodb />
       </Stack>
+      <Divider variant="middle" sx={{ mt: 1 }} />
+
+      <InteractiveList />
+
+      <img
+        src="/media/projects/pgaalpha.jpg"
+        alt="example"
+        className="projectImg"
+      />
     </>
   );
 }

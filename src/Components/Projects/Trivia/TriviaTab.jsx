@@ -60,10 +60,6 @@ export default function TriviaTab() {
           </a>
         </IconButton>
       </Box>
-      <Divider variant="middle" sx={{ mt: 1 }} />
-
-      <InteractiveList />
-
       <Stack
         className="projectPills"
         spacing={2}
@@ -74,6 +70,15 @@ export default function TriviaTab() {
         <ReactJs />
         <SCSS />
       </Stack>
+      <Divider variant="middle" sx={{ mt: 1 }} />
+
+      <InteractiveList />
+
+      <img
+        src="/media/projects/trivia.jpg"
+        alt="example"
+        className="projectImg"
+      />
     </>
   );
 }

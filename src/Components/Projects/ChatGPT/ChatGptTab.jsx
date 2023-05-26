@@ -63,9 +63,6 @@ export default function ChatGptTab() {
           </a>
         </IconButton>
       </Box>
-      <Divider variant="middle" sx={{ mt: 1 }} />
-
-      <InteractiveList />
 
       <Stack
         className="projectPills"
@@ -79,6 +76,15 @@ export default function ChatGptTab() {
         <ReactJs />
         <Mongodb />
       </Stack>
+      <Divider variant="middle" sx={{ mt: 1 }} />
+
+      <InteractiveList />
+
+      <img
+        src="/media/projects/JordanGPT.jpg"
+        alt="example"
+        className="projectImg"
+      />
     </>
   );
 }
