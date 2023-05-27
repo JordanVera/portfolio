@@ -64,7 +64,7 @@ export default function GifGeneratorTab() {
       <GifGeneratorList />
 
       <img
-        src="/media/projects/gifgen.jpg"
+        src="/media/projects/gifGen.jpg"
         alt="example"
         className="projectImg"
       />
