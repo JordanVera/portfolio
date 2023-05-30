@@ -20,19 +20,19 @@ export default function GifGeneratorList() {
             <ListItemIcon>
               <BoltSharpIcon className="green" />
             </ListItemIcon>
-            <ListItemText primary="The site allows you to give it a topic and will generate gifs based upon the topic given." />
+            <ListItemText primary="Generate custom GIFs by providing a topic of your choice on the website." />
           </ListItem>
           <ListItem>
             <ListItemIcon>
               <BoltSharpIcon className="green" />
             </ListItemIcon>
-            <ListItemText primary="This is a front end only application that was one of my first exposures with using external apis." />
+            <ListItemText primary="This front-end application serves as one of my early experiences with utilizing external APIs." />
           </ListItem>
           <ListItem>
             <ListItemIcon>
               <BoltSharpIcon className="green" />
             </ListItemIcon>
-            <ListItemText primary="The application will also give the rating of the gif shown for each result, and also have some default topics chosen ny me." />
+            <ListItemText primary="In addition to displaying GIFs, the application provides ratings for each result and includes a selection of default topics curated by me." />
           </ListItem>
         </List>
       </Grid>

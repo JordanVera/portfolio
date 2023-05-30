@@ -20,19 +20,19 @@ export default function InteractiveList() {
             <ListItemIcon>
               <BoltSharpIcon className="green" />
             </ListItemIcon>
-            <ListItemText primary="A fantasy football pool web application.  This app is built using express, passport, axios, bcryptjs, lodash, mongodb, mongoose, and EJS just to name a few." />
+            <ListItemText primary="Engage in the ultimate fantasy football experience with my web application, featuring a wide array of technologies including Express, Passport, Axios, Bcryptjs, Lodash, MongoDB, Mongoose, and EJS, among others." />
           </ListItem>
           <ListItem>
             <ListItemIcon>
               <BoltSharpIcon className="green" />
             </ListItemIcon>
-            <ListItemText primary="This app includes user login and authentication, a full checkout process through cryptocurrency, and a rock solid express backend api." />
+            <ListItemText primary="Enjoy seamless user login and authentication, complete with a secure checkout process accepting cryptocurrency payments. The app boasts a robust Express backend API to ensure smooth functionality." />
           </ListItem>
           <ListItem>
             <ListItemIcon>
               <BoltSharpIcon className="green" />
             </ListItemIcon>
-            <ListItemText primary="The objective of NFL Last Longer is to pick one NFL team each week to win the game, not against the spread, and you can only pick each team once." />
+            <ListItemText primary="NFL Last Longer, the flagship feature, challenges you to strategically select one NFL team each week to secure a win—without considering the spread—and with the restriction of picking each team only once." />
           </ListItem>
         </List>
       </Grid>

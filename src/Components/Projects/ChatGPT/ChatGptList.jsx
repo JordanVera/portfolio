@@ -20,19 +20,19 @@ export default function InteractiveList() {
             <ListItemIcon>
               <BoltSharpIcon className="green" />
             </ListItemIcon>
-            <ListItemText primary="A Chat GPT clone using openai's chatgpt 3.5 model and rapid apis endpoint.  App is in beta and still has many features left to implement at this point." />
+            <ListItemText primary="Beta version of my Chat GPT clone utilizing OpenAI's ChatGPT 3.5 model and Rapid API's endpoint. Stay tuned for exciting upcoming features!" />
           </ListItem>
           <ListItem>
             <ListItemIcon>
               <BoltSharpIcon className="green" />
             </ListItemIcon>
-            <ListItemText primary="Ability to have multiple different chats going at the same time, each chat stores prior messages and replies to aid in better chatGPT responses." />
+            <ListItemText primary="Concurrent multi-chat functionality enables multiple simultaneous conversations while retaining message history to enhance ChatGPT responses." />
           </ListItem>
           <ListItem>
             <ListItemIcon>
               <BoltSharpIcon className="green" />
             </ListItemIcon>
-            <ListItemText primary="Right now there is no backend so upon leaving the app chats get deleted and the app is not very responsive on mobile.  I am aware of these issues and am working on them as we speak!" />
+            <ListItemText primary="Currently addressing backend limitations to ensure chat persistence and enhancing mobile responsiveness. I am aware of these issues and actively working on resolving them!" />
           </ListItem>
         </List>
       </Grid>

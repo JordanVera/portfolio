@@ -20,19 +20,19 @@ export default function InteractiveList() {
             <ListItemIcon>
               <BoltSharpIcon className="green" />
             </ListItemIcon>
-            <ListItemText primary="A data visualization web app to view real-time stats about your favorite PGA golfers" />
+            <ListItemText primary="Experience real-time stats about your favorite PGA golfers through our data visualization web app." />
           </ListItem>
           <ListItem>
             <ListItemIcon>
               <BoltSharpIcon className="green" />
             </ListItemIcon>
-            <ListItemText primary="Check golf standings, strokes gained data, upcoming tournaments, live betting odds, and much more within the web app." />
+            <ListItemText primary="Explore golf standings, strokes gained data, upcoming tournaments, live betting odds, and more all within our comprehensive web app." />
           </ListItem>
           <ListItem>
             <ListItemIcon>
               <BoltSharpIcon className="green" />
             </ListItemIcon>
-            <ListItemText primary="Express, React, Chart.js, MongoDB, Node.js, Axios, and many more modern technologies used to build PGA Alpha" />
+            <ListItemText primary="PGA Alpha is built using cutting-edge technologies including Express, React, Chart.js, MongoDB, Node.js, Axios, and many others." />
           </ListItem>
         </List>
       </Grid>
